@@ -4,7 +4,7 @@
 
 @layer base {
     h1 {
-        @apply text-2xl my-5;
+        @apply text-2xl my-5 font-bold;
     }
     h2 {
         @apply text-xl;

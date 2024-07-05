@@ -1,7 +1,8 @@
 <template>
-  <div>
-    <ContentDoc path="/description" />
-  </div>
+    <NuxtRouteAnnouncer />
+    <NuxtLayout>
+        <NuxtPage />
+    </NuxtLayout>
 </template>
 
 <script setup>

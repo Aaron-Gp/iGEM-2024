@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     baseURL: "/bit/",
     buildAssetsDir: "/static/",
     head: {
-      title: "BIT-iGEM 2024",
+      title: "BIT iGEM 2024 - Wiki",
       meta: [
         { name: "description", content: "iGEM 2024 Team Wiki of Bit." },
         { name: "keywords", content: "bit, igem, 2024, wiki" },
@@ -21,7 +21,9 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxt/icon",
     "radix-vue/nuxt",
-    "@nuxt/image"
+    "@nuxt/image",
+    "@hypernym/nuxt-anime",
+    "nuxt-aos"
   ],
   colorMode: {
     classSuffix: "",
@@ -31,5 +33,16 @@ export default defineNuxtConfig({
   },
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
+  },
+  image: {
+    providers: {
+      myProvider: {
+        name: 'iGEM',
+        provider: '~/providers/igem.ts',
+        options: {
+          baseURL: "https://static.igem.wiki/teams/5358"
+        }
+      }
+    }
   }
 });
