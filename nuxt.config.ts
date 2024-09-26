@@ -14,26 +14,30 @@ export default defineNuxtConfig({
       ]
     },
   },
+
   devtools: { enabled: true },
+
   modules: [
     "@nuxt/content",
-    "@nuxtjs/tailwindcss",
-    "@nuxtjs/color-mode",
-    "@nuxt/icon",
     "radix-vue/nuxt",
     "@nuxt/image",
     "@hypernym/nuxt-anime",
-    "nuxt-aos"
+    "nuxt-aos",
+    "@nuxt/ui"
   ],
+
   colorMode: {
     classSuffix: "",
   },
+
   content: {
     contentHead: false
   },
+
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
   },
+
   image: {
     providers: {
       myProvider: {
@@ -44,5 +48,7 @@ export default defineNuxtConfig({
         }
       }
     }
-  }
+  },
+
+  compatibilityDate: "2024-07-05"
 });
