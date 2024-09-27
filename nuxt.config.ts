@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+const lifecycle = process.env.npm_lifecycle_event
 export default defineNuxtConfig({
   app: {
     baseURL: "/bit/",
@@ -17,13 +19,37 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  devServer: {
+    port: 8080,
+  },
+
   modules: [
     "@nuxt/content",
-    "radix-vue/nuxt",
     "@nuxt/image",
-    "@hypernym/nuxt-anime",
-    "nuxt-aos",
-    "@nuxt/ui"
+    "@element-plus/nuxt",
+    "@nuxtjs/tailwindcss",
+  ],
+
+  build: {
+    transpile: [
+      // https://github.com/element-plus/element-plus-nuxt-starter/blob/44644788ee0d2a2580769769f9885b5cd9f7c0ab/nuxt.config.ts#L27
+      ...(lifecycle === 'build' || lifecycle === 'generate'
+        ? ['element-plus']
+        : []),
+    ],
+  },
+
+  experimental: {
+    reactivityTransform: true,
+    viteNode: true,
+  },
+
+  elementPlus: {
+    importStyle: false,
+  },
+
+  css: [
+    '~/assets/css/element.scss',
   ],
 
   colorMode: {
@@ -35,7 +61,7 @@ export default defineNuxtConfig({
   },
 
   tailwindcss: {
-    cssPath: '~/assets/css/main.css',
+    // cssPath: '~/assets/css/tailwind.css',
   },
 
   image: {
