@@ -1,8 +1,7 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 
-const lifecycle = process.env.npm_lifecycle_event
 export default defineNuxtConfig({
   app: {
+    // 本地部署注释下面这句
     baseURL: "/bit/",
     buildAssetsDir: "/static/",
     head: {
@@ -23,45 +22,38 @@ export default defineNuxtConfig({
     port: 8080,
   },
 
+  css: ['~/assets/css/element.scss'],
+
+  typescript: {
+    strict: true,
+    shim: false,
+  },
+
   modules: [
     "@nuxt/content",
     "@nuxt/image",
-    "@element-plus/nuxt",
-    "@nuxtjs/tailwindcss",
+    '@vueuse/nuxt',
+    '@element-plus/nuxt',
+    '@nuxtjs/color-mode',
+    "@nuxtjs/tailwindcss"
   ],
 
-  build: {
-    transpile: [
-      // https://github.com/element-plus/element-plus-nuxt-starter/blob/44644788ee0d2a2580769769f9885b5cd9f7c0ab/nuxt.config.ts#L27
-      ...(lifecycle === 'build' || lifecycle === 'generate'
-        ? ['element-plus']
-        : []),
-    ],
+  // vueuse
+  vueuse: {
+    ssrHandlers: true,
   },
 
-  experimental: {
-    reactivityTransform: true,
-    viteNode: true,
-  },
-
-  elementPlus: {
-    importStyle: false,
-  },
-
-  css: [
-    '~/assets/css/element.scss',
-  ],
-
+  // colorMode
   colorMode: {
-    classSuffix: "",
+    classSuffix: '',
   },
 
   content: {
     contentHead: false
   },
 
-  tailwindcss: {
-    // cssPath: '~/assets/css/tailwind.css',
+  elementPlus: {
+    importStyle: false,
   },
 
   image: {
@@ -75,6 +67,4 @@ export default defineNuxtConfig({
       }
     }
   },
-
-  compatibilityDate: "2024-07-05"
-});
+})

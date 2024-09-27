@@ -1,7 +1,7 @@
 <template>
     <header class="pt-5">
         <el-menu :default-active="activeIndex" mode="horizontal" :ellipsis="false" @select="handleSelect" :router="true">
-            <NuxtImg provider="iGEM" src="/icons/logo.png" class="" />
+            <NuxtImg provider="iGEM" src="/icons/logo.png" />
             <div class="grow"></div>
             <el-menu-item index="/">HOME</el-menu-item>
             <el-sub-menu index="project">
@@ -61,7 +61,7 @@ const handleSelect = (key, keyPath) => {
             padding: 0;
         }
 
-        &.is-active .el-sub-menu__title{
+        &.is-active .el-sub-menu__title {
             font-weight: bold;
         }
 
@@ -73,7 +73,7 @@ const handleSelect = (key, keyPath) => {
         @apply mx-10;
     }
 
-    .el-menu-item{
+    .el-menu-item {
         @apply pt-5;
 
         &.is-active {
