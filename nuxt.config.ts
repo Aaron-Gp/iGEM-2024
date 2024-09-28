@@ -65,4 +65,12 @@ export default defineNuxtConfig({
       }
     }
   },
+
+  vite: {
+    server: {
+      hmr: {
+        clientPort: 8080
+      },
+    }
+  }
 })
