@@ -38,12 +38,10 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss"
   ],
 
-  // vueuse
   vueuse: {
     ssrHandlers: true,
   },
 
-  // colorMode
   colorMode: {
     classSuffix: '',
   },

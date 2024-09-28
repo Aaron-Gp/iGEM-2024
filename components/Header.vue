@@ -1,7 +1,7 @@
 <template>
     <header class="pt-5">
         <el-menu :default-active="activeIndex" mode="horizontal" :ellipsis="false" @select="handleSelect" :router="true">
-            <NuxtImg provider="iGEM" src="/icons/logo.png" />
+            <NuxtImg provider="iGEM" src="/icons/logo.png" quality="100" />
             <div class="grow"></div>
             <el-menu-item index="/">HOME</el-menu-item>
             <el-sub-menu index="project">
