@@ -3,7 +3,7 @@
         <el-menu :default-active="activeIndex" mode="horizontal" :ellipsis="false" @select="handleSelect" :router="true"
             class="px-10">
             <NuxtImg provider="iGEM" src="/icons/logo.png" quality="100" @click="$router.push('/')"
-                class="cursor-pointer" />
+                class="cursor-pointer py-2" />
             <div class="grow"></div>
             <el-menu-item index="/">HOME</el-menu-item>
             <el-sub-menu index="project">

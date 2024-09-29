@@ -1,6 +1,6 @@
 <template>
     <div class="text-center text-base mt-10 border-t-2 text-gray-300">
-        <div class="flex flex-wrap justify-between mt-10 text-left mx-[7.5rem]">
+        <div class="flex flex-wrap justify-between mt-10 text-left mx-[1rem] lg:mx-[7.5rem]">
             <!-- 这里是网站地图 -->
             <RouteMap :routemap="map"/>
         </div>
