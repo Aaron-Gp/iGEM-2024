@@ -40,14 +40,15 @@ const map = [
         subs: [
             ['Description', '/description'],
             ['Engineering', '/engineering'],
+            ['Safety', '/safety'],
         ]
     },
     {
         title: 'Web Lab',
         subs: [
-            ['Experiment', '/experiment'],
-            ['Result', '/result'],
-            ['Notebook Parts', '/parts'],
+            ['Experiments', '/experiment'],
+            ['Results', '/result'],
+            ['Notebook', '/parts'],
         ]
     },
     {
@@ -62,11 +63,11 @@ const map = [
         subs: [
             ['Members', '/member'],
             ['Attributions', '/attributions'],
-            ['Contribution', '/contribution'],
+            ['Contributions', '/contribution'],
         ]
     },
     {
-        title: 'Human Practice',
+        title: 'Human Practices',
         subs: [
             ['Education', '/education'],
             ['Integrated HP', '/integrated'],

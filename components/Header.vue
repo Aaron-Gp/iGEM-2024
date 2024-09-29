@@ -1,7 +1,7 @@
 <template>
     <header class="">
         <el-menu :default-active="activeIndex" mode="horizontal" :ellipsis="false" @select="handleSelect" :router="true"
-            class="px-10">
+            class="menu-desktop px-10 hidden lg:flex">
             <NuxtImg provider="iGEM" src="/icons/logo.png" quality="100" @click="$router.push('/')"
                 class="cursor-pointer py-2" />
             <div class="grow"></div>
@@ -9,15 +9,15 @@
             <el-sub-menu index="project">
                 <template #title>Project</template>
                 <el-menu-item index="/description">Description</el-menu-item>
-                <el-menu-item index="/engineering">Engineering Succes</el-menu-item>
-                <el-menu-item index="/safety">Safety form</el-menu-item>
+                <el-menu-item index="/engineering">Engineering</el-menu-item>
+                <el-menu-item index="/safety">Safety</el-menu-item>
             </el-sub-menu>
             <el-sub-menu index="wet-lab">
 
                 <template #title>Wet Lab</template>
-                <el-menu-item index="/experiment">Experiment</el-menu-item>
-                <el-menu-item index="/result">Result</el-menu-item>
-                <el-menu-item index="/parts">Notebook Parts</el-menu-item>
+                <el-menu-item index="/experiment">Experiments</el-menu-item>
+                <el-menu-item index="/result">Results</el-menu-item>
+                <el-menu-item index="/parts">Notebook</el-menu-item>
             </el-sub-menu>
             <el-sub-menu index="dry-lab">
 
@@ -28,16 +28,68 @@
             <el-sub-menu index="team">
 
                 <template #title>Team</template>
-                <el-menu-item index="/member">Member</el-menu-item>
-                <el-menu-item index="/attributions">Attribution</el-menu-item>
-                <el-menu-item index="/contribution">Contribution</el-menu-item>
+                <el-menu-item index="/member">Members</el-menu-item>
+                <el-menu-item index="/attributions">Attributions</el-menu-item>
+                <el-menu-item index="/contribution">Contributions</el-menu-item>
             </el-sub-menu>
             <el-sub-menu index="hp">
 
-                <template #title>Human Practice</template>
+                <template #title>Human Practices</template>
                 <el-menu-item index="/education">Education</el-menu-item>
                 <el-menu-item index="/integrated">Integrated HP</el-menu-item>
             </el-sub-menu>
+        </el-menu>
+
+        <!-- mobile nav -->
+        <el-menu :default-active="activeIndex" mode="horizontal" :ellipsis="false" @select="handleSelect" :router="true"
+            class="menu-mobile px-10 flex lg:hidden">
+            <NuxtImg provider="iGEM" src="/icons/logo.png" quality="100" @click="$router.push('/')"
+                class="cursor-pointer py-2" />
+            <div class="grow"></div>
+            <el-popover :visible="visible" placement="bottom-start" trigger="click" class="">
+
+                <template #reference>
+                    <el-avatar class="self-center cursor-pointer" @click="visible = !visible"
+                        :icon="ElIconMenu" />
+                </template>
+
+                <el-menu :default-active="activeIndex" class="" :collapse="true" :router="true">
+                    <el-menu-item index="/">HOME</el-menu-item>
+                    <el-sub-menu index="project">
+
+                        <template #title>Project</template>
+                        <el-menu-item index="/description">Description</el-menu-item>
+                        <el-menu-item index="/engineering">Engineering</el-menu-item>
+                        <el-menu-item index="/safety">Safety</el-menu-item>
+                    </el-sub-menu>
+                    <el-sub-menu index="wet-lab">
+
+                        <template #title>Wet Lab</template>
+                        <el-menu-item index="/experiment">Experiments</el-menu-item>
+                        <el-menu-item index="/result">Results</el-menu-item>
+                        <el-menu-item index="/parts">Notebook</el-menu-item>
+                    </el-sub-menu>
+                    <el-sub-menu index="dry-lab">
+
+                        <template #title>Dry Lab</template>
+                        <el-menu-item index="/hardware">Hardware</el-menu-item>
+                        <el-menu-item index="/model">Model</el-menu-item>
+                    </el-sub-menu>
+                    <el-sub-menu index="team">
+
+                        <template #title>Team</template>
+                        <el-menu-item index="/member">Members</el-menu-item>
+                        <el-menu-item index="/attributions">Attributions</el-menu-item>
+                        <el-menu-item index="/contribution">Contributions</el-menu-item>
+                    </el-sub-menu>
+                    <el-sub-menu index="hp">
+
+                        <template #title>Human Practices</template>
+                        <el-menu-item index="/education">Education</el-menu-item>
+                        <el-menu-item index="/integrated">Integrated HP</el-menu-item>
+                    </el-sub-menu>
+                </el-menu>
+            </el-popover>
         </el-menu>
     </header>
 </template>
@@ -51,10 +103,13 @@ const handleSelect = (key, keyPath) => {
     console.log(key, keyPath)
 }
 
+const visible = ref(false)
+
 watch(
     () => route.fullPath,
     (newVal) => {
         activeIndex.value = newVal
+        visible.value = false
     }
 )
 </script>
@@ -68,6 +123,7 @@ watch(
     --el-menu-text-color: white;
     --el-menu-hover-bg-color: rgba(255, 255, 255, 0.5);
 
+    
     .el-menu-item:focus:not(.el-menu-item:hover) {
         --el-menu-hover-bg-color: transparent;
         --el-menu-hover-text-color: white;
@@ -129,6 +185,11 @@ watch(
         }
     }
 
+    .el-avatar--icon{
+        --el-avatar-icon-size: 1.5rem;
+        --el-avatar-bg-color: transparent;
+        border: solid 2px white;
+    }
 }
 
 .el-menu--horizontal {
@@ -137,6 +198,22 @@ watch(
 
     &>.el-menu-item {
         border: none;
+    }
+}
+
+.el-menu--vertical {
+    @apply w-full;
+
+    .el-menu-item, .el-sub-menu__title{
+        @apply justify-center;
+        
+        padding-top: 0 !important;
+    }
+
+    .el-sub-menu.is-active::after {
+        bottom: 0;
+        width: 50%;
+        margin: 0 auto;
     }
 }
 
