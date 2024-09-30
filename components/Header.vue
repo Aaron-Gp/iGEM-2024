@@ -68,6 +68,7 @@
                         <template #title>Wet Lab</template>
                         <el-menu-item index="/experiment">Experiments</el-menu-item>
                         <el-menu-item index="/result">Results</el-menu-item>
+                        <el-menu-item index="/notebook">Results</el-menu-item>
                         <el-menu-item index="/parts">Notebook</el-menu-item>
                     </el-sub-menu>
                     <el-sub-menu index="dry-lab">
