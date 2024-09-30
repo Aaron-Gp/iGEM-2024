@@ -28,7 +28,7 @@
         width: 100%;
         height: 2em;
         padding-top: 0.5em;
-        padding-bottom: 0.5em;
+        padding-bottom: 1em;
         opacity: 1;
         border-radius: 0.5em;
         background: linear-gradient(90deg, rgba(192, 247, 72, 0.8) 0%, rgba(192, 247, 72, 0) 100%);
