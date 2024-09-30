@@ -27,7 +27,7 @@
         position: relative; /* 相对定位 */
         width: 100%;
         height: 2em;
-        padding: 0.5em 0.5em;
+        padding: 0.5em 1em;
         box-sizing: border-box;
         opacity: 1;
         border-radius: 0.5em;
