@@ -24,14 +24,13 @@
     h2 {
         @apply my-5 font-bold text-center text-2xl;
 
-        position: absolute;
-        left: 286px;
-        top: 751px;
+        position: relative; /* 相对定位 */
         width: 1455px;
         height: 91px;
         opacity: 1;
         border-radius: 19px;
         background: linear-gradient(90deg, rgba(192, 247, 72, 0.8) 0%, rgba(192, 247, 72, 0) 100%);
+        padding: 20px;
     }
 
 }
