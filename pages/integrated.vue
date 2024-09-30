@@ -26,7 +26,7 @@
 
         position: relative; /* 相对定位 */
         width: 100%;
-        height: 2em;
+        height: 2.5em;
         padding-top: 0.5em;
         padding-bottom: 1em;
         opacity: 1;
