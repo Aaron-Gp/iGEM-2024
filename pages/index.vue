@@ -18,8 +18,7 @@
         <span class="text-[#AEDE44]">
             Scroll to Backgrounds
         </span>
-        <div class="indicator-icon-1 mt-2"></div>
-        <div class="indicator-icon-2 mt-[7px]"></div>
+        <NuxtImg provider="iGEM" src="/imgs/arrow-index.svg" width="25" class="mt-2" />
     </div>
     <div>
         <ContentDoc path="/description" />

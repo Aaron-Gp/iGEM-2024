@@ -60,22 +60,4 @@ header {
     z-index: -1;
 }
 
-.indicator-icon-1 {
-    width: 16.3px;
-    height: 16.3px;
-    opacity: 1;
-    border-radius: 2px;
-    transform: rotate(-45deg);
-    background: linear-gradient(270deg, rgba(255, 242, 0, 1) 0%, rgba(192, 247, 72, 1) 100%);
-}
-
-.indicator-icon-2 {
-    width: 25.8px;
-    height: 25.8px;
-    opacity: 1;
-    border-radius: 2px;
-    transform: rotate(-45deg);
-    background: linear-gradient(270deg, rgba(255, 242, 0, 1) 0%, rgba(192, 247, 72, 1) 100%);
-}
-
 </style>

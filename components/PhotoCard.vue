@@ -103,5 +103,6 @@ defineProps({
 
 .el-popper.el-popover {
     width: auto !important;
+    max-width: 240px;
 }
 </style>
