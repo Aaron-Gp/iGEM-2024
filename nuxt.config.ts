@@ -35,7 +35,8 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@element-plus/nuxt',
     '@nuxtjs/color-mode',
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    'nuxt-anchorscroll',
   ],
 
   vueuse: {
@@ -47,7 +48,18 @@ export default defineNuxtConfig({
   },
 
   content: {
-    contentHead: false
+    contentHead: false,
+    markdown: {
+      anchorLinks: false,
+    }
+  },
+
+  anchorscroll: {
+    hooks: [
+      // Or any valid hook if needed
+      // Default is `page:finish`
+      'page:transition:finish',
+    ],
   },
 
   elementPlus: {

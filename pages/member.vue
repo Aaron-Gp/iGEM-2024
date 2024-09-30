@@ -263,7 +263,7 @@ const STUs = [
         src: '/team1/students-zhanglingyue.jpg',
         degree: 'Junior',
         major: 'Mechanical Engineering',
-        content: 'As a creative girl who specializes in hardware design for this year\'s iGEM competition, my goal is to bring our innovative biological concepts to life through effective hardware solutions, and I\'m excited to collaborate with my team to make our ideas a reality.',
+        content: 'As a creative hardware designer, I aim to bring our innovative biological ideas to life through practical hardware solutions. I’m thrilled to work with my team to turn our visions into reality.',
         offset: [-10, 0],
     },
     {

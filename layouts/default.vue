@@ -24,6 +24,7 @@ body {
 
 header {
     max-width: 1920px;
+    z-index: 10;
 
     @media (min-width: 1920px) {
         justify-self: center;

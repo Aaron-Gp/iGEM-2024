@@ -36,6 +36,9 @@ importers:
       nuxt:
         specifier: ~3.9.3
         version: 3.9.3(@parcel/watcher@2.4.1)(@types/node@22.7.4)(magicast@0.3.5)(rollup@4.22.5)(sass@1.69.7)(terser@5.34.1)(typescript@5.3.3)(vite@5.0.11(@types/node@22.7.4)(sass@1.69.7)(terser@5.34.1))
+      nuxt-anchorscroll:
+        specifier: ^1.0.3
+        version: 1.0.3(magicast@0.3.5)(rollup@4.22.5)
       sass:
         specifier: ~1.69.5
         version: 1.69.7
@@ -2806,6 +2809,9 @@ packages:
     resolution: {integrity: sha512-MhG4QR6D95jQxhnwKfdKXulZ8Yqy1nbpwbotbxY5IcabOzpEeTB8hYn2BFkmYdMUB0no81qpv2ldZmVCT9UsnQ==}
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
+
+  nuxt-anchorscroll@1.0.3:
+    resolution: {integrity: sha512-f/1XzEvaolgsh+V0CgutcJozlBE5iLkp+oF7z/ZJCYMXQrTrPmpe8HnM8WlxTLHjAdFw09jx7dQ5oGQwHZt5tw==}
 
   nuxt@3.9.3:
     resolution: {integrity: sha512-IzBJAJImqCGfspVZzvznrALnFIJ5rPe+VJvY8OiccwRzWT8sEygVRjh3Mc64yWV6P59rz497wp9RBBBhuV2MVA==}
@@ -7533,6 +7539,15 @@ snapshots:
       boolbase: 1.0.0
 
   nuxi@3.14.0: {}
+
+  nuxt-anchorscroll@1.0.3(magicast@0.3.5)(rollup@4.22.5):
+    dependencies:
+      '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.22.5)
+    transitivePeerDependencies:
+      - magicast
+      - rollup
+      - supports-color
+      - webpack-sources
 
   nuxt@3.9.3(@parcel/watcher@2.4.1)(@types/node@22.7.4)(magicast@0.3.5)(rollup@4.22.5)(sass@1.69.7)(terser@5.34.1)(typescript@5.3.3)(vite@5.0.11(@types/node@22.7.4)(sass@1.69.7)(terser@5.34.1)):
     dependencies:
