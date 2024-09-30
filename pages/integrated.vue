@@ -25,12 +25,11 @@
         @apply my-5 font-bold text-center text-2xl;
 
         position: relative; /* 相对定位 */
-        width: 1455px;
-        height: 91px;
+        width: 100%;
+        height: 3em;
         opacity: 1;
-        border-radius: 19px;
+        border-radius: 1em;
         background: linear-gradient(90deg, rgba(192, 247, 72, 0.8) 0%, rgba(192, 247, 72, 0) 100%);
-        padding: 20px;
     }
 
 }
