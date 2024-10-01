@@ -1,1 +1,0 @@
-import{u as e,c as t,o as a}from"./entry.B1t8Qr4Q.js";const i={__name:"safety",setup(s){return e({title:"BIT iGEM 2024 - Safety",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(o,c)=>(a(),t("div",null,"this is safety"))}};export{i as default};

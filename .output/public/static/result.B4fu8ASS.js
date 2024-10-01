@@ -1,0 +1,1 @@
+import{u as e}from"./entry.BoXKASA2.js";const s={__name:"result",setup(t){return e({title:"BIT iGEM 2024 - Measurement",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(n,r)=>null}};export{s as default};
