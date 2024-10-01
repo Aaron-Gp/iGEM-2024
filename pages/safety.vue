@@ -1,7 +1,8 @@
 <template>
-    <div class="m-10 mb-16 font-extrabold text-8xl">Safety</div>
+    <NuxtImg provider="iGEM" src="/banner/project.webp" class="inline-block w-full mt-[-1rem]" alt="cover"/>
+    <div class="page-title m-10 mb-16 font-normal text-3xl p-5 pl-8 rounded-lg">Safety</div>
     <div class="flex flex-row flex-wrap md:flex-nowrap justify-center mx-10">
-        <ContentDoc path="/safety" v-slot="{ doc }">
+        <ContentDoc path="/project-safety" v-slot="{ doc }">
             <!-- TOC -->
             <aside class="md:sticky md:top-[18vh] md:w-[200px] md:h-[300px] md:mr-10 ">
                 <h1 class="mt-0">TOC</h1>
@@ -20,7 +21,9 @@
 </template>
 
 <style lang="scss">
-
+.page-title {
+    background: linear-gradient(90deg, rgba(186, 182, 173, 0.8) 0%, rgba(186, 182, 173, 0) 100%);
+}
 </style>
 
 <script setup>

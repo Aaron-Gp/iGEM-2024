@@ -9,13 +9,13 @@
         </h2>
 
         <div class="my-20 h-[1000vh]">
-            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh] z-[3]" data-aos="fade-up" data-aos-duration="500"
                 data-aos-offset="0" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-bg.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+            <NuxtImg provider="iGEM" src="/home/p1-bg.webp" class="block px-10 sticky top-[15vh] z-[2]" data-aos="fade-up" data-aos-duration="500"
                 data-aos-offset="500" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-man.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-right"
+            <NuxtImg provider="iGEM" src="/home/p1-man.webp" class="block px-10 sticky top-[15vh] z-[1]" data-aos="fade-right"
                 data-aos-duration="500" data-aos-offset="1000" />
 
             <NuxtImg provider="iGEM" src="/home/p1-cloud.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-left"
@@ -27,10 +27,10 @@
             <NuxtImg provider="iGEM" src="/home/p1-falling-bird.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
                 data-aos-duration="200" data-aos-offset="1900" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-falldown-bird.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
+            <NuxtImg provider="iGEM" src="/home/p1-falldown-bird.webp" class="block px-10 sticky top-[15vh] z-[3]" data-aos="fade-zoom-in"
                 data-aos-duration="200" data-aos-offset="2100" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-eyedrop.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
+            <NuxtImg provider="iGEM" src="/home/p1-eyedrop.webp" class="block px-10 sticky top-[15vh] z-[3]" data-aos="fade-zoom-in"
                 data-aos-duration="100" data-aos-offset="2200" />
         </div>
 
@@ -64,7 +64,7 @@
         </h2>
 
         <div class="my-20 h-[1000vh]">
-            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh] z-[3]" data-aos="fade-up" data-aos-duration="500"
                 data-aos-offset="0" />
 
             <NuxtImg provider="iGEM" src="/home/p2-bg.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
@@ -114,13 +114,13 @@
         </h2>
 
         <div class="my-20 h-[400vh]">
-            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh] z-[3] rotate-180" data-aos="fade-up" data-aos-duration="500"
                 data-aos-offset="0" />
 
-            <NuxtImg provider="iGEM" src="/home/p3-bg.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+            <NuxtImg provider="iGEM" src="/home/p3-bg.webp" class="block px-10 sticky top-[15vh] rotate-180" data-aos="fade-up" data-aos-duration="500"
                 data-aos-offset="500" />
 
-            <NuxtImg provider="iGEM" src="/home/p3-bacteria.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-right"
+            <NuxtImg provider="iGEM" src="/home/p3-bacteria.webp" class="block px-10 sticky top-[15vh] rotate-180" data-aos="fade-right"
                 data-aos-duration="500" data-aos-offset="1000" />
         </div>
 
@@ -144,7 +144,7 @@
 <style lang="scss">
 .scrolling-animation {
     p {
-        @apply font-bold text-2xl;
+        @apply font-normal text-2xl;
     }
 }
 </style>

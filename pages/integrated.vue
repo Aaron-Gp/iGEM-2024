@@ -1,9 +1,10 @@
 <template>
-    <div class="m-10 mb-16 font-extrabold text-8xl">Integrated HP</div>
+    <NuxtImg provider="iGEM" src="/banner/hp.webp" class="inline-block w-full mt-[-1rem]" alt="cover"/>
+    <div class="page-title m-10 mb-16 font-normal text-3xl p-5 pl-8 rounded-lg">Integrated HP</div>
     <div class="flex flex-row flex-wrap md:flex-nowrap justify-center mx-10">
-        <ContentDoc path="/ihp" v-slot="{ doc }">
+        <ContentDoc path="/hp-ihp" v-slot="{ doc }">
             <!-- TOC -->
-            <aside class="md:sticky md:top-[18vh] md:w-[200px] md:h-[300px] md:mr-10 ">
+            <aside class="md:sticky md:top-[18vh] md:w-[200px] md:h-[400px] md:mr-10 ">
                 <h1 class="">TOC</h1>
                 <ul>
                     <li v-for="link in doc.body.toc.links" :key="link.id" class="my-5" :class="{ 'text-[#C0F748] font-bold': activateIndex == link.id }">
@@ -18,8 +19,10 @@
     </div>
 </template>
 
-<style lang="scss">
-
+<style lang="scss" scoped>
+.page-title {
+    background: linear-gradient(90deg, rgba(195, 129, 49, 0.8) 0%, rgba(195, 129, 49, 0) 100%);
+}
 </style>
 
 <script setup>

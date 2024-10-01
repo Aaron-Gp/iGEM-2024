@@ -258,6 +258,14 @@ const STUs = [
         content: 'Gains Dont Stop!',
     },
     {
+        name: 'Yao Yixuan',
+        pos: 'Student',
+        src: '/team1/students-yaoyixuan.jpg',
+        degree: 'Twelfth Grade',
+        major: 'Affiliated High School of Renmin University',
+        content: 'I have an upbeat personality with a love for literature, music, and sports. In my free time, I compose music and excel in various ball games. Robotics, however, is my true passion, and I’ve won awards in several competitions.',
+    },
+    {
         name: 'Zhang Lingyue',
         pos: 'Student',
         src: '/team1/students-zhanglingyue.jpg',
