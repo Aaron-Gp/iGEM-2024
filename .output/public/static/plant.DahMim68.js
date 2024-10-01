@@ -1,1 +1,0 @@
-import{u as t}from"./entry.Bn7ncJmC.js";const r={__name:"plant",setup(e){return t({title:"BIT iGEM 2024 - Plant",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(n,a)=>null}};export{r as default};

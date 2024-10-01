@@ -1,21 +1,14 @@
 <template>
     <div class="w-full flex flex-wrap flex-col items-end p-10">
         <NuxtImg provider="iGEM" src="/imgs/title.png" class="w-[40vw] block" />
-        <div class="text-right mt-8">
-            ddddndsf dndbsnbfn ndsj aksd hksdjfh ksjhf <br />
-            sahf jshkf kasjdf lakjsdf aljk sjdh al skdjfhalksjdhf <br />
-            klajsdhf kajs hflkahd afaklshjdfk askjdhfakjshdfkajs<br />
-            ksjhdfk ajh kasjdhfa askdj skjdfal aksjdhfl<br />
-            akjsdhf alksjdh akljsd
-        </div>
-        <div class="w-[20vw] flex mt-8 items-center">
+        <div class="w-[25vw] flex mt-16 items-center font-semibold text-2xl">
             <span>BIT</span>
             <span class="grow bg-white h-[1px] mx-5"></span>
             <span>2024</span>
         </div>
     </div>
-    <div class="indicator-icon-group flex flex-col items-center justify-center">
-        <span class="text-[#AEDE44]">
+    <div class="indicator-icon-group flex flex-col items-center justify-center mt-12">
+        <span class="text-[#AEDE44] font-bold text-lg">
             Scroll to Backgrounds
         </span>
         <NuxtImg provider="iGEM" src="/imgs/arrow-index.svg" width="25" class="mt-2" />

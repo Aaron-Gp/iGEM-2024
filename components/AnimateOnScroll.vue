@@ -1,61 +1,139 @@
 <template>
     <div class="scrolling-animation m-20">
         <h2 data-aos="fade-up" data-aos-duration="1000">
-            <p>“这是一个没有声音的春天，人们困扰地谈论着鸟儿的消失，院子后面给鸟儿喂食的地方荒废了，偶尔见到几只鸟也是奄奄一息，它们剧烈的颤动着翅膀也不能飞了……”</p>
-            <p class="text-right">——蕾切尔·卡逊著《寂静的春天》</p>
+            <p>"There was a strange stillness. The birds, for example — where had they gone? Many people spoke of them,
+                puzzled and disturbed. The feeding stations in the backyards were deserted. The few birds seen anywhere
+                were moribund; they trembled violently and could not fly. It was a spring without voices, only silence
+                lay over the fields, woods, and marsh."</p>
+            <p class="text-right mt-3">——*Silent Spring* written by Rachel Carson</p>
         </h2>
 
-        <NuxtImg provider="iGEM" src="/home/p1-all.webp" class="block my-[20vh] px-10" data-aos="fade-up" data-aos-duration="1000" />
+        <div class="my-20 h-[1000vh]">
+            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+                data-aos-offset="0" />
 
-        <h2 data-aos="fade-up" data-aos-duration="1000">
-            <p class="text-right">《寂静的春天》描写因过度使用化学药品和肥料而导致环境污染、生态破坏，最终给人类带来不堪重负的灾难。</p>
-            <p class="text-right mt-10">你担忧书中的现象成为现实吗？</p>
-        </h2>
+            <NuxtImg provider="iGEM" src="/home/p1-bg.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+                data-aos-offset="500" />
 
-        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
-            <p class="text-left">
-                《在本书发表后的时间里，人们惊奇地发现书中的文字正在向现实转变，一系列离奇古怪、令人费解的现象在世界各地开始出现。许多有关动物及人的报告令人忧心忡忡：行为异常、生殖能力下降、幼体死亡等。 </p>
-        </h2>
+            <NuxtImg provider="iGEM" src="/home/p1-man.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-right"
+                data-aos-duration="500" data-aos-offset="1000" />
 
-        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
-            <p class="text-left">一类危险的化学物质正在侵害着环境健康——环境内分泌干扰物：（是指由于人类的生产、生活而释放到环境中的，影响人体和动物体内正常激素水平的外源性化学物质。）</p>
-        </h2>
+            <NuxtImg provider="iGEM" src="/home/p1-cloud.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-left"
+                data-aos-duration="500" data-aos-offset="1500" />
 
-        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
-            <p class="text-left">许多我们熟知的农药、材料添加剂都属于环境内分泌干扰物，事实上还有更多的内分泌干扰物潜伏在我们周围...</p>
-        </h2>
+            <NuxtImg provider="iGEM" src="/home/p1-tofall-bird.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-left"
+                data-aos-duration="200" data-aos-offset="1700" />
 
-        <NuxtImg provider="iGEM" src="/home/p2-all.webp" class="block my-[20vh] px-10" data-aos="fade-up" data-aos-duration="1000" />
+            <NuxtImg provider="iGEM" src="/home/p1-falling-bird.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
+                data-aos-duration="200" data-aos-offset="1900" />
 
+            <NuxtImg provider="iGEM" src="/home/p1-falldown-bird.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
+                data-aos-duration="200" data-aos-offset="2100" />
 
-        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
-            <p class="text-left">而我们就是要把这种物质找出来。</p>
-        </h2>
-
-
-        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
-            <p class="text-left">环境内分泌干扰物的重要作用途径是与生物体内的激素受体结合，从而扰乱生物的激素调控。我们将从这种结合效应着手，寻找内分泌干扰效应的检测方式。</p>
-        </h2>
-
-
-        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
-            <p class="text-left">但仅仅这样是不够的，</p>
-        </h2>
-
-        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
-            <p class="text-left">
-                环境内分泌干扰物在生物体内的作用是复杂，且涉及到多种效应。因此，我们将利用HRP与luxR/I系统构建与门检测线路，联合其他毒性效应，以完成对环境内分泌物更加全面细致的检测与评估。</p>
-        </h2>
-
-        <div class="text-center">
-            <NuxtImg provider="iGEM" src="/home/p3-all.webp" class="inline-block my-[10vh] w-[60vw]" data-aos="fade-up"
-                data-aos-duration="1000" />
+            <NuxtImg provider="iGEM" src="/home/p1-eyedrop.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
+                data-aos-duration="100" data-aos-offset="2200" />
         </div>
 
+        <h2 data-aos="fade-up" data-aos-duration="1000" class="sticky">
+            <p class="text-right">"Silent Spring" depicts the environmental pollution and ecological damage caused by
+                excessive use of chemicals and fertilizers, ultimately leading to unbearable disasters for humanity.</p>
+            <p class="text-right mt-10">Are you worried that the phenomena described in the book will become a reality?
+            </p>
+        </h2>
+
+        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
+            <p class="text-left">
+                After the publication of the book, people were surprised to find that the words written in it were
+                turning into reality. A series of strange and inexplicable phenomena began to appear all over the world.
+                Many reports about animals and humans are worrying: abnormal behavior, decreased reproductive capacity,
+                and death of young.
+            </p>
+        </h2>
+
+        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
+            <p class="text-left">
+                A dangerous class of chemicals is harming environmental health - environmental endocrine disruptors:
+                (refers to exogenous chemical substances released into the environment by human production and life that
+                affect the normal hormone levels in the bodies of humans and animals.)
+            </p>
+        </h2>
+
+        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
+            <p class="text-left">Many familiar pesticides and material additives belong to environmental endocrine
+                disruptors, and in fact, there are even more endocrine disruptors lurking around us...</p>
+        </h2>
+
+        <div class="my-20 h-[1000vh]">
+            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+                data-aos-offset="0" />
+
+            <NuxtImg provider="iGEM" src="/home/p2-bg.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+                data-aos-offset="500" />
+
+            <NuxtImg provider="iGEM" src="/home/p2-cloud.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-left"
+                data-aos-duration="500" data-aos-offset="1000" />
+
+            <NuxtImg provider="iGEM" src="/home/p2-moon.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-down"
+                data-aos-duration="500" data-aos-offset="1500" />
+
+            <NuxtImg provider="iGEM" src="/home/p2-death.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
+                data-aos-duration="200" data-aos-offset="1700" />
+
+            <NuxtImg provider="iGEM" src="/home/p2-hand.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
+                data-aos-duration="200" data-aos-offset="1900" />
+
+            <NuxtImg provider="iGEM" src="/home/p2-drug.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
+                data-aos-duration="200" data-aos-offset="2100" />
+        </div>
+
+        <!-- <NuxtImg provider="iGEM" src="/home/p2-all.webp" class="block my-[20vh] px-10" data-aos="fade-up"
+            data-aos-duration="1000" /> -->
+
+
+        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
+            <p class="text-left text-3xl font-extrabold">And it is our task to find out these substances.</p>
+        </h2>
+
+
+        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
+            <p class="text-left">The important mechanism of action of environmental endocrine disruptors in living
+                organisms is to bind to hormone receptors, thereby disrupting the regulation of hormones. We will start
+                from this binding effect to find a way to detect the endocrine disruptor effect.</p>
+        </h2>
+
+
+        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
+            <p class="text-left text-3xl font-extrabold">But that is not enough,</p>
+        </h2>
+
+        <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
+            <p class="text-left">The action of environmental endocrine disruptors in living organisms is complex and
+                involves multiple effects. Therefore, we will use the HRP and luxR/I system to construct an AND gate
+                detection circuit and combine it with other toxic effects to achieve a more comprehensive and detailed
+                detection and evaluation of environmental endocrine disruptors.</p>
+        </h2>
+
+        <div class="my-20 h-[400vh]">
+            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+                data-aos-offset="0" />
+
+            <NuxtImg provider="iGEM" src="/home/p3-bg.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
+                data-aos-offset="500" />
+
+            <NuxtImg provider="iGEM" src="/home/p3-bacteria.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-right"
+                data-aos-duration="500" data-aos-offset="1000" />
+        </div>
+
+        <!-- <div class="text-center">
+            <NuxtImg provider="iGEM" src="/home/p3-all.webp" class="inline-block my-[10vh] w-[60vw]" data-aos="fade-up"
+                data-aos-duration="1000" />
+        </div> -->
+
         <div class="text-right">
-            <div class="mt-20 text-right font-bold text-2xl hover:border-emerald-200 border-2 inline-block rounded-xl p-2 hover:text-emerald-300">
+            <div
+                class="mt-20 text-right font-bold text-2xl hover:border-emerald-200 border-2 inline-block rounded-xl p-2 hover:text-emerald-300">
                 <NuxtLink to="/description">
-                    See more in Description...
+                    For more information, see Description ...
                 </NuxtLink>
             </div>
         </div>

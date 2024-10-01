@@ -1,1 +1,0 @@
-import{u as e}from"./entry.Bn7ncJmC.js";const c={__name:"education",setup(t){return e({title:"BIT iGEM 2024 - Education",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(n,a)=>null}};export{c as default};
