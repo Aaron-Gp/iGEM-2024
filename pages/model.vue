@@ -31,6 +31,6 @@ function setExtensions() {
     }
 }
 
-const { scene } = await useLoader(GLTFLoader, '/models/m1cc0.5.glb', setExtensions())
+const { scene } = await useLoader(GLTFLoader, '/models/m1cc0.1.glb', setExtensions())
 
 </script>
