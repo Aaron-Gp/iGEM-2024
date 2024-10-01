@@ -2,6 +2,7 @@ image: node:18.20.0
 
 pages:
   stage: build
+  script:
   artifacts:
     paths:
       - .output/public
