@@ -37,7 +37,12 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     "@nuxtjs/tailwindcss",
     'nuxt-anchorscroll',
+    '@tresjs/nuxt',
   ],
+  
+  tres: {
+    devtools: true,
+  },
 
   vueuse: {
     ssrHandlers: true,
@@ -84,5 +89,11 @@ export default defineNuxtConfig({
         clientPort: 8080
       },
     }
-  }
+  },
+
+  nitro: {
+    prerender: {
+      ignore: ["/model"],
+    },
+  },
 })

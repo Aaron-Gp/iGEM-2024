@@ -66,7 +66,7 @@ const activateIndex = ref('');
 function loadScroll() {
     var h2 = document.querySelectorAll(".content h2");
     for (var i = h2.length - 1; i >= 0; i--) {
-        if(scroll.value >= h2[i].offsetTop - 120) {
+        if(scroll.value >= h2[i].offsetTop - 130) {
             // console.log(h2[i].id);
             activateIndex.value = h2[i].id;
             break;
