@@ -4,7 +4,7 @@
         <TresPerspectiveCamera :position="[110, 110, 110]" />
         <OrbitControls />
         <Suspense>
-            <GLTFModel path="/models/m10.1.glb" />
+            <GLTFModel :path="`${config.app.baseURL}models/m10.1.glb`" />
         </Suspense>
         <TresAmbientLight :position="[0, 0, 0]" :intensity="1.0" />
         <TresDirectionalLight :position="[-4, 8, 4]" :intensity="1.5" />
@@ -22,5 +22,8 @@ useHead({
 
 import { TresCanvas } from '@tresjs/core'
 import { OrbitControls, GLTFModel } from '@tresjs/cientos'
+
+const config = useRuntimeConfig()
+console.log(config.app.baseURL)
 
 </script>
