@@ -1,0 +1,1 @@
+import{u as e}from"./entry.B1t8Qr4Q.js";const n={__name:"software",setup(t){return e({title:"BIT iGEM 2024 - Software",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(a,o)=>null}};export{n as default};

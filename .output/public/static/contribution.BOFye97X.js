@@ -1,0 +1,1 @@
+import{u as t}from"./entry.B1t8Qr4Q.js";const r={__name:"contribution",setup(e){return t({title:"BIT iGEM 2024 - Contribution",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(n,o)=>null}};export{r as default};

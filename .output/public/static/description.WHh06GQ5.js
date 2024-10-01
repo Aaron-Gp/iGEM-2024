@@ -1,1 +1,0 @@
-import{u as e}from"./entry.DPLUGTNp.js";const r={__name:"description",setup(t){return e({title:"BIT iGEM 2024 - Description",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(i,n)=>null}};export{r as default};

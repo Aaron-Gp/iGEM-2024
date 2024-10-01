@@ -1,1 +1,0 @@
-import{u as e}from"./entry.DPLUGTNp.js";const a={__name:"notebook",setup(t){return e({title:"BIT iGEM 2024 - Inclusivity",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(n,o)=>null}};export{a as default};

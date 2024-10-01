@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     // 本地部署注释下面这句
-    baseURL: "/bit/",
+    // baseURL: "/bit/",
     buildAssetsDir: "/static/",
     head: {
       title: "BIT iGEM 2024 - Wiki",
@@ -93,7 +93,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      ignore: ["/model"],
+      ignore: ["/model-old"],
     },
   },
 })

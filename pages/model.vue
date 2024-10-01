@@ -4,7 +4,7 @@
         <TresPerspectiveCamera :position="[110, 110, 110]" />
         <OrbitControls />
         <Suspense>
-            <primitive :object="scene" />
+            <GLTFModel path="/models/m10.1.glb" />
         </Suspense>
         <TresAmbientLight :position="[0, 0, 0]" :intensity="1.0" />
         <TresDirectionalLight :position="[-4, 8, 4]" :intensity="1.5" />
@@ -20,17 +20,7 @@ useHead({
     ],
 })
 
-import { useLoader, TresCanvas } from '@tresjs/core'
-import { OrbitControls } from '@tresjs/cientos'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
-import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module'
-
-function setExtensions() {
-    return (loader) => {
-        loader.setMeshoptDecoder(MeshoptDecoder)
-    }
-}
-
-const { scene } = await useLoader(GLTFLoader, '/models/m1cc0.1.glb', setExtensions())
+import { TresCanvas } from '@tresjs/core'
+import { OrbitControls, GLTFModel } from '@tresjs/cientos'
 
 </script>
