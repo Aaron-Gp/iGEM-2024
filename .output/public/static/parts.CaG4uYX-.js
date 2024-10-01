@@ -1,1 +1,0 @@
-import{u as t}from"./entry.BV81p025.js";const r={__name:"parts",setup(e){return t({title:"BIT iGEM 2024 - Inclusivity",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(n,a)=>null}};export{r as default};

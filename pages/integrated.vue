@@ -1,4 +1,5 @@
 <template>
+    <div class="m-10 mb-16 font-extrabold text-8xl">Integrated HP</div>
     <div class="flex flex-row flex-wrap md:flex-nowrap justify-center mx-10">
         <ContentDoc path="/ihp" v-slot="{ doc }">
             <!-- TOC -->

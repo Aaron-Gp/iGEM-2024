@@ -39,6 +39,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     'nuxt-anchorscroll',
     '@tresjs/nuxt',
+    'nuxt-aos',
   ],
   
   tres: {
@@ -92,9 +93,4 @@ export default defineNuxtConfig({
     }
   },
 
-  nitro: {
-    prerender: {
-      ignore: ["/model-old"],
-    },
-  },
 })

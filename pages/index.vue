@@ -21,7 +21,7 @@
         <NuxtImg provider="iGEM" src="/imgs/arrow-index.svg" width="25" class="mt-2" />
     </div>
     <div>
-        <ContentDoc path="/description" />
+        <AnimateOnScroll />
     </div>
 </template>
 
