@@ -3,6 +3,7 @@ image: node:18.20.0
 pages:
   stage: build
   script:
+    - echo "Building..."
   artifacts:
     paths:
       - .output/public
