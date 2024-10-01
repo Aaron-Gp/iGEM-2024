@@ -8,8 +8,11 @@
 <script setup>
 </script>
 
-<style>
+<style lang="scss">
+@import '~/assets/css/content.scss';
+
 body{
     height: 100vh;
 }
+
 </style>

@@ -1,0 +1,1 @@
+import{u as e}from"./entry.BV81p025.js";const r={__name:"experiment",setup(t){return e({title:"BIT iGEM 2024 - Sustainable",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(n,a)=>null}};export{r as default};

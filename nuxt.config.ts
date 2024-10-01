@@ -1,9 +1,8 @@
 
 export default defineNuxtConfig({
   app: {
-    // 本地部署注释下面这两句
+    // 本地部署注释下面这句
     baseURL: "/bit/",
-    cdnURL: "/bit/",
 
     buildAssetsDir: "/static/",
     head: {

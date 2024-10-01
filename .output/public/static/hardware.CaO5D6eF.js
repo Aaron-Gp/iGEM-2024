@@ -1,1 +1,0 @@
-import{u as e}from"./entry.C7avPQ-s.js";const o={__name:"hardware",setup(t){return e({title:"BIT iGEM 2024 - Hardware",meta:[{name:"description",content:"Welcome to the BIT Wiki"}]}),(a,r)=>null}};export{o as default};
