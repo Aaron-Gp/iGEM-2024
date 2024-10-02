@@ -176,7 +176,7 @@ In terms of material selection, we have adopted a black silicone kit and an alum
 ​	The system construction utilized common integrated modules, with the main controller being an ESP32 chip, and temperature control and detection were accomplished using the TCM temperature control module and LIDE Technology's FM series digital fluorescence detection module, respectively. We employed industrial processing techniques to fabricate the aluminum alloy temperature-controlled slots, while the casing and other components were created using 3D printing technology.
 
 
-![Schematic Diagram of Hardware Equipment](https://static.igem.wiki/teams/5358/engineering-success/schematic-diagram-of-hardware-equipment.png)
+![Schematic Diagram of Hardware Equipment](https://static.igem.wiki/teams/5358/engineering-success/new.png)
 
 [Figure 9. Schematic Diagram of Hardware Equipment]{.fig-title}
 

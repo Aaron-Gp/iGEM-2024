@@ -1,13 +1,13 @@
 <template>
     <div class="w-full flex flex-wrap flex-col items-end p-10">
-        <NuxtImg provider="iGEM" src="/imgs/title.png" class="w-[40vw] block" />
-        <div class="w-[25vw] flex mt-16 items-center font-semibold text-2xl">
+        <NuxtImg provider="iGEM" src="/banner/home-title.png" class="w-[45vw] block" />
+        <div class="w-[25vw] flex mt-12 items-center font-semibold text-2xl">
             <span>BIT</span>
             <span class="grow bg-white h-[1px] mx-5"></span>
             <span>2024</span>
         </div>
     </div>
-    <div class="indicator-icon-group flex flex-col items-center justify-center mt-12">
+    <div class="indicator-icon-group flex flex-col items-center justify-center mt-8">
         <span class="text-[#AEDE44] font-bold text-lg">
             Scroll to Backgrounds
         </span>

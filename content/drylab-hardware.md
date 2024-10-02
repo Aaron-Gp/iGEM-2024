@@ -132,7 +132,7 @@ To meet the demand for high-throughput detection, we proposed two solutions: a m
 
  
 
-![](https://static.igem.wiki/teams/5358/hardware/12.png)
+![](https://static.igem.wiki/teams/5358/engineering-success/new.png)
 
 [Figure 12 Model Diagram of the New Equipment]{.fig-title}
 
