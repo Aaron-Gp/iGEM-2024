@@ -19,54 +19,53 @@ The sequence source and construction method of the composite part are demonstrat
 
 When cells are subjected to oxidative damage, PrecA initiates the expression of the downstream hrpR gene.
 
-![img](file:///C:\Users\wangjn01\AppData\Local\Temp\ksohtml17664\wps1.jpg) 
+![img](https://static.igem.wiki/teams/5358/parts/image1.png) 
 
 ### Pj23100-LuxR-T
 
 Pj23100 is a constitutive promoter that enables the constitutive expression of LuxR.
 
-![img](file:///C:\Users\wangjn01\AppData\Local\Temp\ksohtml17664\wps2.jpg) 
+![img](https://static.igem.wiki/teams/5358/parts/image2.png) 
 
 ### PluxR-hrpS-T
 
 Used for the constitutive regulation circuit with LuxR.
 
-![img](file:///C:\Users\wangjn01\AppData\Local\Temp\ksohtml17664\wps3.jpg) 
+![img](https://static.igem.wiki/teams/5358/parts/image3.png) 
 
 ### PhrpL-BsFbFp-T
 
 Used for the constitutive regulation characterization project with hrpR.
 
-![img](file:///C:\Users\wangjn01\AppData\Local\Temp\ksohtml17664\wps4.jpg) 
+![img](https://static.igem.wiki/teams/5358/parts/image4.png) 
 
 ### PgapA-N-T7RNAP-ER-LBD intein-C-T7RNAP-T
 
 PgapA is a constitutive promoter that enables the constitutive expression of intein.
 
-![img](file:///C:\Users\wangjn01\AppData\Local\Temp\ksohtml17664\wps5.jpg) 
+![img](https://static.igem.wiki/teams/5358/parts/image5.png) 
 
 ### PT7-LuxI-T
 
 Used to construct a regulatory circuit with T7 polymerase.
 
-![img](file:///C:\Users\wangjn01\AppData\Local\Temp\ksohtml17664\wps6.jpg) 
+![img](https://static.igem.wiki/teams/5358/parts/image6.png) 
 
 ### PrecA-hrpR-T- Pj23100-LuxR- PluxR-hrpS-T- PhrpL-BsFbFp-T
 
 PrecA responds to cellular oxidative stress damage and expresses hrpR. PluxR responds to the binding of LuxR and AHL, ultimately leading to the expression of hrpS. HrpS and hrpR together activate PhrpL, which expresses BsFbFp, resulting in fluorescence characterization in bacteria. 
 
-![img](file:///C:\Users\wangjn01\AppData\Local\Temp\ksohtml17664\wps7.jpg) 
+![img](https://static.igem.wiki/teams/5358/parts/image7.png) 
 
 ### Pj23100-N-T7RNAP-ER-LBD intein-C-T7RNAP-T- PT7-LuxI-T
 
 PgapA constitutively initiates the expression of intein. When cells are affected by endocrine disruptors, intein is cleaved, allowing the N-terminal and C-terminal of T7 polymerase to come together and activate PT7 to express LuxI, which collaborates with other bacteria to initiate signaling expression.
 
-![img](file:///C:\Users\wangjn01\AppData\Local\Temp\ksohtml17664\wps8.jpg) The composite part is composed of 12 basic parts, which can realize the detection of oxidative stress damage level and signal amplification function of E.coli.
+![img](https://static.igem.wiki/teams/5358/parts/image8.png) The composite part is composed of 12 basic parts, which can realize the detection of oxidative stress damage level and signal amplification function of E.coli.
 
 Our part successfully detected DNA damage and endocrine disruptors caused by the damaging reagent NA. Increasing the signal output while improving the sensitivity of the sensor, which broadens the application range of the sensor and is more suitable for the detection of new chemical reagents.
 
-## Reference Parts
-
+## Reference Parts:
 
 
 | Part Name    | Type              | Description                                                  | Length |
@@ -85,4 +84,5 @@ Our part successfully detected DNA damage and endocrine disruptors caused by the
 | BBa_K2610040 | Regulatory        | Constitutive promoters of gene circuits                      | 15bp   |
 | BBa_R0062    | Regulatory        | The inducible promoter in lux gene regulatory network        | 55bp   |
 | BBa_C0062    | Coding            | The activator protein luxR in lux gene regulatory network    | 781bp  |
+
 

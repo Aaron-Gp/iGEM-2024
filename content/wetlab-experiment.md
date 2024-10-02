@@ -13,16 +13,14 @@ DNA damage refers to alterations in the chemical structure of DNA, which can aff
 
 ## Experiment
 
-### Biological experiment plan
+### **Strain Obtain**
 
-#### **Strain Obtain**
-
-##### **gene acquisition**
+#### **gene acquisition**
 
 The recA，rbs30，hrpR，hrpS，PhrpL ，eGFP，BsFbFp，PgapA，T7RNAP，VAMER intein，PT7，LuxI and LuxR genes were synthesized by Sangon Biotech according to the standard of biobrick, and the line fragments were obtained through PCR.
 
 
-###### ***PCR***
+##### ***PCR***
 
 Material
 
@@ -38,7 +36,7 @@ Protocol
 
 
 
-###### **Agarose gel electrophoresis and sample recovery**
+##### **Agarose gel electrophoresis and sample recovery**
 
 Material
 
@@ -79,12 +77,12 @@ The electrophoresis products were purified by gel recovery method, and the purif
 - Put the adsorption column in a new 1.5ml centrifuge tube, add 30μl Eluent in the center of the adsorption column membrane, and then centrifuge at the 12,000rpm for 1min after standing at room temperature, from which electrophoretic products were obtained;
 
 
-##### Plasmid Construction
+#### Plasmid Construction
 
 The obtained gene line fragment and pUC19 empty vector are digested and ligated by enzyme ligation.
 
 
-###### Enzyme digestion
+##### Enzyme digestion
 
 Material
 
@@ -104,7 +102,7 @@ After adding the following enzyme digestion system to a 0.2 mL centrifuge tube, 
 | Enzyme B                | 0.5μL  |
 | Total                   | 20μL   |
 
-###### Enzyme Ligation
+##### Enzyme Ligation
 
 Material
 
@@ -124,11 +122,11 @@ After adding the following ligation system to a 0.2mL centrifuge tube, incubate 
 | Total                | 25μL   |
 
 
-###### Transformation and Selection
+##### Transformation and Selection
 
 Transfer 5μL of the ligation product into 50μL of BL21 competent cells. After incubation, plate 100μL of the transformed cells onto LB agar plates containing 100μg/mL ampicillin resistance. Invert the plates and incubate overnight at 37°C. Pick single colonies and inoculate them into 30mL of antibiotic-free LB broth. Add 30μL of ampicillin and incubate at 37°C with shaking at 180r/min for 12 h. Preserve the cultures in glycerol at -10°C;
 
-###### Plasmid transformation
+##### Plasmid transformation
 
 Material
 
@@ -147,14 +145,14 @@ Protocol
 - Add 30μL of ampicillin to 30mL of antibiotic-free LB liquid medium. Using a pipette tip, pick a single colony and inoculate it into the aforementioned liquid medium. Incubate at 37°C with shaking at 180r/min for 12 h;
 
 
-#### Characterization experiment
+### Characterization experiment
 
-##### Preparation
+#### Preparation
 
 Transfer The bacteria solution cultured overnight to 30mL fresh non-resistant LB medium, with adding 30μL ampicillin, and culture in the shaking table at 37°C and 180r/min until the OD600 value of the bacteria solution is between 0.3 and 0.4;
 
 
-##### Experimental characterization of the anaerobic environment
+#### Experimental characterization of the anaerobic environment
 
 Method 1：The bacterial solution was added to DNA damaging agent, dropped into anaerobic row and incubated for 2h in a 37 C incubator. Measure OD600 and fluorescence intensity of bacterial solution by microplate reader;
 
@@ -167,14 +165,14 @@ Method 2：The bacterial solution was sealed using paraffin oil and DNA damaging
 
 
 
-##### Data measurement
+#### Data measurement
 
-###### Measure the OD600
+##### Measure the OD600
 
 Transfer 200μL of the bacteria solution to a 96-hole black microplate and place it in a microplate reader. Set the wavelength to 600 and measure the absorbance reading.
 
 
-###### Measure the Fluorescence Intensity
+##### Measure the Fluorescence Intensity
 
 Transfer 200μL of the bacteria solution to a 96-hole black microplate and place it in a microplate reader. Set the excitation wavelength to 488 nm, emission wavelength to 520 nm, and gain to 75. Measure the fluorescence intensity.
 

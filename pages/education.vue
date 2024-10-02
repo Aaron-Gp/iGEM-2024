@@ -147,8 +147,8 @@
 
           <!-- PDF viewer next to the carousel -->
           <div class="flex justify-center">
-            <iframe src="https://static.igem.wiki/teams/5358/education/pokey.pdf" width="100%" height="300px"
-              class="pdf-viewer" title="POKEY-MON Board Game PDF"></iframe>
+            <iframe src="https://static.igem.wiki/teams/5358/education/pokey.pdf" width="100%"
+              class="pdf-viewer h-[50vh]" title="POKEY-MON Board Game PDF"></iframe>
           </div>
 
         <p>
@@ -203,6 +203,7 @@
   }
 }
 .global-caption{
+  margin-top: -2rem;
   display: flex;
   /* Flexbox用于居中 */
   justify-content: center;
@@ -214,14 +215,10 @@
 }
 
 .my-swiper {
-  height: 200px;
-  /* 设置Swiper的高度 */
   display: flex;
-  /* Flexbox用于居中 */
   justify-content: center;
-  /* 水平居中 */
   align-items: center;
-  /* 垂直居中 */
+  @apply m-5;
 }
 
 .swiper-slide {
@@ -236,11 +233,8 @@
 .carousel-image {
   margin-top: 40px;
   width: auto;
-  /* 使图片宽度自适应 */
-  height: 200px;
-  /* 固定图片高度 */
   object-fit: contain;
-  /* 让图片等比例缩放并保持完整 */
+  height: 50vh;
 }
 
 .swiper-button-next,
@@ -283,7 +277,7 @@ const groupedImages = ref([])
 onMounted(() => {
   const imagePaths = [
     '1.jpg', '2.jpg', '4.jpg', // Group 1
-    '4.jpg', '5.jpg', '6.jpg', '7.jpg', // Group 2
+    '5.jpg', '6.jpg', '7.jpg', // Group 2
     '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.png', // Group 3
     '13.jpg', '14.jpg', // Group 4
     '15.jpg', '16.jpg', '17.jpg', '18.jpg', // Group 5
@@ -293,11 +287,11 @@ onMounted(() => {
   // 将图片按段落分组
   groupedImages.value = [
     imagePaths.slice(0, 3), // Group 1
-    imagePaths.slice(3, 7), // Group 2
-    imagePaths.slice(7, 12), // Group 3
-    imagePaths.slice(12, 14), // Group 4
-    imagePaths.slice(14, 18), // Group 5
-    imagePaths.slice(18, 19) // Group 6
+    imagePaths.slice(3, 6), // Group 2
+    imagePaths.slice(6, 11), // Group 3
+    imagePaths.slice(11, 13), // Group 4
+    imagePaths.slice(13, 17), // Group 5
+    imagePaths.slice(17, 18) // Group 6
   ]
 
   // 处理 TOC

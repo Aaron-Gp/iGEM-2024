@@ -16,7 +16,7 @@ We obtained the PrecA-BsFbFp circuit and the recA-eGFP (hereafter referred to as
 
 ![img](https://static.igem.wiki/teams/5358/experiment/fig1.png) 
 
-![img](https://static.igem.wiki/teams/5358/experiment/2-enzyme-digestion.png) 
+![img](https://static.igem.wiki/teams/5358/experiment/bsfbfp.png) 
 
 [Figure 1. Results of the enzyme digestion verification experiment for pUC19-PrecA-BsFbFP-BL21.]{.fig-title}
 
