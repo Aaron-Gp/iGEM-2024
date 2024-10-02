@@ -12,8 +12,24 @@
         @apply bg-[rgba(255,255,255,0.15)] p-1 rounded-sm;
     }
 
+    pre {
+        background-color: rgba(240, 240, 250, 0.8); /* 设置带透明度的背景颜色 */
+        border: 1px solid #584af4; /* 设置边框 */
+        border-radius: 5px; /* 设置边框圆角 */
+        padding: 10px; /* 设置内边距 */
+        overflow: auto; /* 允许滚动 */
+        font-size: 13px; /* 设置字体大小 */
+        white-space: pre-wrap; /* 自动换行 */
+
+        code {
+            @apply bg-transparent border-none p-0;
+            font-family: 'Courier New', Courier, monospace; /* 使用等宽字体 */
+            color: #111; /* 设置字体颜色 */
+        }
+    }
+
     h2 {
-        @apply my-12 font-bold text-center text-3xl inline-block py-5 rounded-lg w-full;
+        @apply my-10 font-bold text-center text-3xl inline-block p-5 rounded-lg w-full leading-[3rem];
 
         background: linear-gradient(90deg, rgba(192, 247, 72, 0.8) 0%, rgba(192, 247, 72, 0) 100%);
     }
@@ -61,6 +77,10 @@
     }
 
     p:has(.fig-title) {
+        @apply text-center mt-[-1.25rem];
+    }
+
+    p:has(.tab-title) {
         @apply text-center;
     }
 
@@ -82,6 +102,23 @@
             content: "(" counter(sectioncounter) ")";
             counter-increment: sectioncounter;
             margin-right: 1rem;
+        }
+    }
+
+    .reference {
+        position: relative;
+        padding-left: 3rem;
+
+        ol {
+            list-style: none;
+            counter-reset: sectioncounter;
+            padding-left: 0;
+        }
+        ol li:before {
+            content: "[" counter(sectioncounter) "]";
+            counter-increment: sectioncounter;
+            position: absolute;
+            left: 0;
         }
     }
 }

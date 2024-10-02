@@ -3,7 +3,7 @@
   <div class="page-title m-10 mb-16 font-normal text-3xl p-5 pl-8 rounded-lg">Education - More accessible knowledge
   </div>
   <div class="flex flex-row flex-wrap md:flex-nowrap justify-center mx-10">
-    <aside class="md:sticky md:top-[18vh] md:w-[200px] md:h-[500px] md:mr-10">
+    <aside class="md:sticky md:top-[120px] md:w-[200px] md:h-[500px] md:mr-10">
       <h1>TOC</h1>
       <ul>
         <li v-for="link in tocLinks" :key="link.id" class="my-5"

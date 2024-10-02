@@ -58,6 +58,10 @@ export default defineNuxtConfig({
     contentHead: false,
     markdown: {
       anchorLinks: false,
+      toc: {
+        depth: 3,
+        searchDepth: 1,
+      },
     }
   },
 

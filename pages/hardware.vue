@@ -4,7 +4,7 @@
     <div class="flex flex-row flex-wrap md:flex-nowrap justify-center mx-10">
         <ContentDoc path="/drylab-hardware" v-slot="{ doc }">
             <!-- TOC -->
-            <aside class="md:sticky md:top-[18vh] md:w-[200px] md:h-[500px] md:mr-10 ">
+            <aside class="md:sticky md:top-[120px] md:w-[200px] md:h-[500px] md:mr-10 ">
                 <h1 class="mt-0">TOC</h1>
                 <ul>
                     <li v-for="link in doc.body.toc.links" :key="link.id" class="my-4"

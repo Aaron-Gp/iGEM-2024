@@ -6,7 +6,7 @@ title: Notebook
 
 The team members conducted a background survey on the effects of DNA damage and endocrine interference, and designed a specific logical gate line based on this. Our project employs the insertion of RecA intein into T7 RNAP to detect endocrine disruption effects and utilizes the SOS response mechanism of Escherichia coli to detect DNA damage. Additionally, the LuxI/R system is introduced to achieve an AND gate detection of both effects. Furthermore, the Hrp gene regulation system and BsFbFp fluorescent gene are combined to amplify the transcriptional signal and ensure effective signal expression under anaerobic conditions
 
-![img](https://static.igem.wiki/teams/5358/notebook/notebook.jpg)
+![img](https://static.igem.wiki/teams/5358/notebook/ahl.png)
 
 ## June-September
 
