@@ -52,7 +52,7 @@ const PIs = [
         src: '/team1/pi-lvxuefei.jpg',
         degree: 'Professor',
         major: 'Doctoral Supervisor',
-        content: '',
+        content: 'The research field belongs to biomedical testing.',
     },
     {
         name: 'Deng Yulin',
@@ -69,7 +69,7 @@ const PIs = [
         src: '/team1/pi-lixiaoqiong.jpg',
         degree: 'Professor',
         major: 'Doctoral Supervisor',
-        content: '',
+        content: 'The research field belongs to space life science payloads, in vitro diagnostic technology and equipment for clinical medicine',
         offset: [-10, -3],
     },
 ]
@@ -221,6 +221,14 @@ const STUs = [
         degree: 'Junior',
         major: 'Biology',
         content: 'He’s driven to use advanced life science tech for global benefits, believing it can solve key issues like disease and environmental damage, creating a healthier, sustainable world.',
+    },
+    {
+        name: 'Li Zhuohan',
+        pos: 'Student',
+        src: '/team1/students-leezhuohai.jpg',
+        degree: 'Twelfth Grade',
+        major: 'Beijing 101 High School',
+        content: 'Biology is one of the few subjects I am passionate about and willing to devote into a great deal of thought and time.  I chose to participate as team member to deepen my understanding of biology.',
     },
     {
         name: 'Peng Xingyu',

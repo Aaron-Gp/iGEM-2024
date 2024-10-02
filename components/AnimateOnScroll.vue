@@ -9,35 +9,35 @@
         </h2>
 
         <div class="my-20 h-[1000vh]">
-            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh] z-[3]" data-aos="fade-up" data-aos-duration="500"
+            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[20vh] z-[3]" data-aos="fade-up" data-aos-duration="500"
                 data-aos-offset="0" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-bg.webp" class="block px-10 sticky top-[15vh] z-[2]" data-aos="fade-up" data-aos-duration="500"
+            <NuxtImg provider="iGEM" src="/home/p1-bg.webp" class="block px-10 sticky top-[20vh] z-[2]" data-aos="fade-up" data-aos-duration="500"
                 data-aos-offset="500" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-man.webp" class="block px-10 sticky top-[15vh] z-[1]" data-aos="fade-right"
+            <NuxtImg provider="iGEM" src="/home/p1-man.webp" class="block px-10 sticky top-[20vh] z-[1]" data-aos="fade-right"
                 data-aos-duration="500" data-aos-offset="1000" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-cloud.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-left"
+            <NuxtImg provider="iGEM" src="/home/p1-cloud.webp" class="block px-10 sticky top-[20vh]" data-aos="fade-left"
                 data-aos-duration="500" data-aos-offset="1500" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-tofall-bird.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-left"
+            <NuxtImg provider="iGEM" src="/home/p1-tofall-bird.webp" class="block px-10 sticky top-[20vh]" data-aos="fade-left"
                 data-aos-duration="200" data-aos-offset="1700" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-falling-bird.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
+            <NuxtImg provider="iGEM" src="/home/p1-falling-bird.webp" class="block px-10 sticky top-[20vh]" data-aos="fade-zoom-in"
                 data-aos-duration="200" data-aos-offset="1900" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-falldown-bird.webp" class="block px-10 sticky top-[15vh] z-[3]" data-aos="fade-zoom-in"
+            <NuxtImg provider="iGEM" src="/home/p1-falldown-bird.webp" class="block px-10 sticky top-[20vh] z-[3]" data-aos="fade-zoom-in"
                 data-aos-duration="200" data-aos-offset="2100" />
 
-            <NuxtImg provider="iGEM" src="/home/p1-eyedrop.webp" class="block px-10 sticky top-[15vh] z-[3]" data-aos="fade-zoom-in"
+            <NuxtImg provider="iGEM" src="/home/p1-eyedrop.webp" class="block px-10 sticky top-[20vh] z-[3]" data-aos="fade-zoom-in"
                 data-aos-duration="100" data-aos-offset="2200" />
         </div>
 
         <h2 data-aos="fade-up" data-aos-duration="1000" class="sticky">
-            <p class="text-right">"Silent Spring" depicts the environmental pollution and ecological damage caused by
+            <p class="text-right w-[60vw] ml-auto text-balance">"Silent Spring" depicts the environmental pollution and ecological damage caused by
                 excessive use of chemicals and fertilizers, ultimately leading to unbearable disasters for humanity.</p>
-            <p class="text-right mt-10">Are you worried that the phenomena described in the book will become a reality?
+            <p class="text-right mt-10 w-[60vw] ml-auto text-balance">Are you worried that the phenomena described in the book will become a reality?
             </p>
         </h2>
 
@@ -63,35 +63,32 @@
                 disruptors, and in fact, there are even more endocrine disruptors lurking around us...</p>
         </h2>
 
-        <div class="my-20 h-[1000vh]">
-            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh] z-[3]" data-aos="fade-up" data-aos-duration="500"
+        <div class="my-20 h-[800vh]">
+            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[20vh] z-[3]" data-aos="fade-down" data-aos-duration="400"
                 data-aos-offset="0" />
 
-            <NuxtImg provider="iGEM" src="/home/p2-bg.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-up" data-aos-duration="500"
-                data-aos-offset="500" />
+            <NuxtImg provider="iGEM" src="/home/p2-cloud.webp" class="block px-10 sticky top-[20vh]" data-aos="fade-down" data-aos-duration="100"
+                data-aos-offset="400" />
 
-            <NuxtImg provider="iGEM" src="/home/p2-cloud.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-left"
-                data-aos-duration="500" data-aos-offset="1000" />
+            <NuxtImg provider="iGEM" src="/home/p2-bg.webp" class="block px-10 sticky top-[20vh]" data-aos="fade-up"
+                data-aos-duration="500" data-aos-offset="300" />
 
-            <NuxtImg provider="iGEM" src="/home/p2-moon.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-down"
-                data-aos-duration="500" data-aos-offset="1500" />
+            <NuxtImg provider="iGEM" src="/home/p2-moon.webp" class="block px-10 sticky top-[20vh]" data-aos="fade-down"
+                data-aos-duration="200" data-aos-offset="800" />
 
-            <NuxtImg provider="iGEM" src="/home/p2-death.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
-                data-aos-duration="200" data-aos-offset="1700" />
+            <NuxtImg provider="iGEM" src="/home/p2-death.webp" class="block px-10 sticky top-[20vh]" data-aos="fade-down"
+                data-aos-duration="200" data-aos-offset="1000" />
 
-            <NuxtImg provider="iGEM" src="/home/p2-hand.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
-                data-aos-duration="200" data-aos-offset="1900" />
+            <NuxtImg provider="iGEM" src="/home/p2-hand.webp" class="block px-10 sticky top-[20vh]" data-aos="fade-zoom-in"
+                data-aos-duration="200" data-aos-offset="1200" />
 
-            <NuxtImg provider="iGEM" src="/home/p2-drug.webp" class="block px-10 sticky top-[15vh]" data-aos="fade-zoom-in"
-                data-aos-duration="200" data-aos-offset="2100" />
+            <NuxtImg provider="iGEM" src="/home/p2-drug.webp" class="block px-10 sticky top-[20vh]" data-aos="fade-zoom-in"
+                data-aos-duration="200" data-aos-offset="1400" />
         </div>
-
-        <!-- <NuxtImg provider="iGEM" src="/home/p2-all.webp" class="block my-[20vh] px-10" data-aos="fade-up"
-            data-aos-duration="1000" /> -->
 
 
         <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
-            <p class="text-left text-3xl font-extrabold">And it is our task to find out these substances.</p>
+            <p class="text-left text-3xl font-extrabold 2xl:text-5xl">And it is our task to find out these substances.</p>
         </h2>
 
 
@@ -103,7 +100,7 @@
 
 
         <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
-            <p class="text-left text-3xl font-extrabold">But that is not enough,</p>
+            <p class="text-left text-3xl font-extrabold 2xl:text-5xl">But that is not enough,</p>
         </h2>
 
         <h2 data-aos="fade-up" data-aos-duration="1000" class="my-20">
@@ -114,20 +111,15 @@
         </h2>
 
         <div class="my-20 h-[400vh]">
-            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[15vh] z-[3] rotate-180" data-aos="fade-up" data-aos-duration="500"
+            <NuxtImg provider="iGEM" src="/home/border.webp" class="block px-10 sticky top-[20vh] z-[3] rotate-180" data-aos="fade-up" data-aos-duration="500"
                 data-aos-offset="0" />
 
-            <NuxtImg provider="iGEM" src="/home/p3-bg.webp" class="block px-10 sticky top-[15vh] rotate-180" data-aos="fade-up" data-aos-duration="500"
+            <NuxtImg provider="iGEM" src="/home/p3-bg.webp" class="block px-10 sticky top-[20vh] rotate-180" data-aos="fade-up" data-aos-duration="500"
                 data-aos-offset="500" />
 
-            <NuxtImg provider="iGEM" src="/home/p3-bacteria.webp" class="block px-10 sticky top-[15vh] rotate-180" data-aos="fade-right"
+            <NuxtImg provider="iGEM" src="/home/p3-bacteria.webp" class="block px-10 sticky top-[20vh] rotate-180" data-aos="fade-right"
                 data-aos-duration="500" data-aos-offset="1000" />
         </div>
-
-        <!-- <div class="text-center">
-            <NuxtImg provider="iGEM" src="/home/p3-all.webp" class="inline-block my-[10vh] w-[60vw]" data-aos="fade-up"
-                data-aos-duration="1000" />
-        </div> -->
 
         <div class="text-right">
             <div
@@ -144,7 +136,7 @@
 <style lang="scss">
 .scrolling-animation {
     p {
-        @apply font-normal text-2xl;
+        @apply font-serif font-thin text-xl px-10 2xl:text-3xl;
     }
 }
 </style>

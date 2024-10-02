@@ -43,12 +43,15 @@
 
         <!-- Image Carousel -->
         <div v-if="groupedImages[0]?.length" class="mb-10">
-          <swiper :slides-per-view="1" pagination navigation :autoplay="{ delay: 2000, disableOnInteraction: false }"
+          <swiper :slides-per-view="1"  :autoplay="{ delay: 2000, disableOnInteraction: false }"
             loop class="my-swiper">
             <swiper-slide v-for="(image, idx) in groupedImages[0]" :key="idx">
               <img :src="`${baseURL}/education/${image}`" alt="Image" class="carousel-image" />
             </swiper-slide>
           </swiper>
+          <div class="global-caption">
+            slide the picture
+        </div>
         </div>
 
         <h2 id="urban-students">Urban students - From appearance to essence</h2>
@@ -63,13 +66,33 @@
         </p>
 
         <div v-if="groupedImages[1]?.length" class="mb-10">
-          <swiper :slides-per-view="1" pagination navigation autoplay :loop="true"
+          <swiper :slides-per-view="1"  autoplay :loop="true"
             :autoplay="{ delay: 2000, disableOnInteraction: false }" class="my-swiper">
             <swiper-slide v-for="(image, idx) in groupedImages[1]" :key="idx">
               <img :src="`${baseURL}/education/${image}`" alt="Image" class="carousel-image" />
             </swiper-slide>
           </swiper>
+          <div class="global-caption">
+            slide the picture
         </div>
+        </div>
+        <p>
+          At the same time, we also communicated with many iGEM teams in high schools to discuss how to improve the 
+          biosecurity of the line by means of cell suicide, how to optimize the questionnaire, and how to improve the
+           efficiency and reliability of the investigation.Finally, we review this year's work, hoping to reach cooperation 
+           in the future
+        </P>
+        <div v-if="groupedImages[2]?.length" class="mb-10">
+          <swiper :slides-per-view="1" autoplay :loop="true"
+            :autoplay="{ delay: 2000, disableOnInteraction: false }" class="my-swiper">
+            <swiper-slide v-for="(image, idx) in groupedImages[2]" :key="idx">
+              <img :src="`${baseURL}/education/${image}`" alt="Image" class="carousel-image" />
+            </swiper-slide>
+          </swiper>
+          <div class="global-caption">
+            slide the picture
+        </div>
+      </div>
 
         <h2 id="college-students">College students - collision of ideas</h2>
         <p>
@@ -83,18 +106,23 @@
           and got a lot of
           valuable and meaningful feedback. These processes inspired us to think about the value of iGEM and its future
           applications.
-        </p>
-
-        <div v-if="groupedImages[2]?.length" class="mb-10">
-          <swiper :slides-per-view="1" pagination navigation autoplay :loop="true"
+        </p>       
+        <div v-if="groupedImages[3]?.length" class="mb-10">
+          <swiper :slides-per-view="1"  autoplay :loop="true"
             :autoplay="{ delay: 2000, disableOnInteraction: false }" class="my-swiper">
-            <swiper-slide v-for="(image, idx) in groupedImages[2]" :key="idx">
+            <swiper-slide v-for="(image, idx) in groupedImages[3]" :key="idx">
               <img :src="`${baseURL}/education/${image}`" alt="Image" class="carousel-image" />
             </swiper-slide>
           </swiper>
+          <div class="global-caption">
+            slide the picture
+        </div>
         </div>
 
-        <h2 id="social-groups">Social groups - Design a board game，make language interesting</h2>
+
+
+
+        <h2 id="social-groups">Social groups - Design a board game, make language interesting</h2>
         <p>
           In order to make the charm of synthetic biology accessible to all social groups of different ages and
           cognitive levels,
@@ -105,23 +133,23 @@
           listened to the opinions of various parties, and once launched, it was widely praised.
         </p>
 
-        <div class="flex mb-10">
-          <!-- Swiper for image carousel -->
-          <div class="w-1/2 flex justify-center">
-            <swiper :slides-per-view="1" pagination navigation :autoplay="{ delay: 2000, disableOnInteraction: false }"
-              loop class="my-swiper">
-              <swiper-slide v-for="(image, idx) in groupedImages[3]" :key="idx">
-                <img :src="`${baseURL}/education/${image}`" alt="Image" class="carousel-image" />
-              </swiper-slide>
-            </swiper>
-          </div>
+        <div v-if="groupedImages[4]?.length" class="mb-10">
+          <swiper :slides-per-view="1"  autoplay :loop="true"
+            :autoplay="{ delay: 2000, disableOnInteraction: false }" class="my-swiper">
+            <swiper-slide v-for="(image, idx) in groupedImages[4]" :key="idx">
+              <img :src="`${baseURL}/education/${image}`" alt="Image" class="carousel-image" />
+            </swiper-slide>
+          </swiper>
+          <div class="global-caption">
+            slide the picture
+        </div>
+        </div>
 
           <!-- PDF viewer next to the carousel -->
-          <div class="w-1/2 flex justify-center">
+          <div class="flex justify-center">
             <iframe src="https://static.igem.wiki/teams/5358/education/pokey.pdf" width="100%" height="300px"
               class="pdf-viewer" title="POKEY-MON Board Game PDF"></iframe>
           </div>
-        </div>
 
         <p>
           Together with iGEM teams from Lanzhou University, Jilin University, Nanjing University of Technology, Sichuan
@@ -134,17 +162,19 @@
           them and knowledge.
         </p>
 
-        <div v-if="groupedImages[4]?.length" class="mb-10">
-          <swiper :slides-per-view="1" pagination navigation autoplay :loop="true"
+        <div v-if="groupedImages[5]?.length" class="mb-10">
+          <swiper :slides-per-view="1" autoplay :loop="true"
             :autoplay="{ delay: 2000, disableOnInteraction: false }" class="my-swiper">
-            <swiper-slide v-for="(image, idx) in groupedImages[4]" :key="idx">
+            <swiper-slide v-for="(image, idx) in groupedImages[5]" :key="idx">
               <img :src="`${baseURL}/education/${image}`" alt="Image" class="carousel-image" />
             </swiper-slide>
           </swiper>
+
         </div>
       </div>
     </div>
   </div>
+
 </template>
 
 <style lang="scss" scoped>
@@ -171,6 +201,16 @@
       }
     }
   }
+}
+.global-caption{
+  display: flex;
+  /* Flexbox用于居中 */
+  justify-content: center;
+  /* 水平居中 */
+  align-items: center;
+  /* 垂直居中 */
+  color: #ebe2e2d8;
+  font-size: 12px;
 }
 
 .my-swiper {
@@ -212,9 +252,13 @@
 }
 
 .pdf-viewer {
-  display: block;
   margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;  /* 使其占满容器的宽度 */
 }
+
 </style>
 
 <script setup>

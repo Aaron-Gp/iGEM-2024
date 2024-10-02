@@ -33,11 +33,23 @@
     }
 
     p {
-        @apply my-5 text-pretty;
+        @apply my-5 hyphens-auto;
     }
 
     h3 {
+        @apply my-5 font-bold text-2xl;
+    }
+
+    h4 {
         @apply my-5 font-bold text-xl;
+    }
+
+    h5 {
+        @apply my-5 font-bold text-lg;
+    }
+
+    h6 {
+        @apply my-5 font-bold text-base;
     }
 
     p a{
@@ -45,6 +57,31 @@
     }
 
     img {
-        @apply rounded-md bg-white w-[80%] mx-auto;
+        @apply rounded-md bg-white w-[80%] mx-auto my-10;
+    }
+
+    p:has(.fig-title) {
+        @apply text-center;
+    }
+
+    .table-fig {
+        @apply my-10;
+
+        td {
+            @apply pt-5;
+        }
+    }
+
+    .paren-ol {
+        ol {
+            list-style: none;
+            counter-reset: sectioncounter;
+            padding-left: 0;
+        }
+        ol li:before {
+            content: "(" counter(sectioncounter) ")";
+            counter-increment: sectioncounter;
+            margin-right: 1rem;
+        }
     }
 }

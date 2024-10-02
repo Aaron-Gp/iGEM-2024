@@ -63,14 +63,14 @@ const map = [
         subs: [
             ['Members', '/member'],
             ['Attributions', '/attributions'],
-            ['Contributions', '/contribution'],
+            ['Contribution', '/contribution'],
         ]
     },
     {
         title: 'Human Practices',
         subs: [
             ['Education', '/education'],
-            ['Integrated HP', '/integrated'],
+            ['Integrated HP', '/human-practices'],
         ]
     }
 ]

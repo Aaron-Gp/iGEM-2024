@@ -31,13 +31,13 @@
                 <template #title>Team</template>
                 <el-menu-item index="/member">Members</el-menu-item>
                 <el-menu-item index="/attributions">Attributions</el-menu-item>
-                <el-menu-item index="/contribution">Contributions</el-menu-item>
+                <el-menu-item index="/contribution">Contribution</el-menu-item>
             </el-sub-menu>
             <el-sub-menu index="hp">
 
                 <template #title>Human Practices</template>
                 <el-menu-item index="/education">Education</el-menu-item>
-                <el-menu-item index="/integrated">Integrated HP</el-menu-item>
+                <el-menu-item index="/human-practices">Integrated HP</el-menu-item>
             </el-sub-menu>
         </el-menu>
 
@@ -82,13 +82,13 @@
                         <template #title>Team</template>
                         <el-menu-item index="/member">Members</el-menu-item>
                         <el-menu-item index="/attributions">Attributions</el-menu-item>
-                        <el-menu-item index="/contribution">Contributions</el-menu-item>
+                        <el-menu-item index="/contribution">Contribution</el-menu-item>
                     </el-sub-menu>
                     <el-sub-menu index="hp">
 
                         <template #title>Human Practices</template>
                         <el-menu-item index="/education">Education</el-menu-item>
-                        <el-menu-item index="/integrated">Integrated HP</el-menu-item>
+                        <el-menu-item index="/human-practices">Integrated HP</el-menu-item>
                     </el-sub-menu>
                 </el-menu>
             </el-popover>

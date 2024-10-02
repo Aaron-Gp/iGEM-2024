@@ -4,92 +4,106 @@ title: Integrated Human Practice
 
 ## Overview
 
-HP的核心是向社会和利益相关方展示项目设计与产品并获得反馈,并将反馈整合进项目，并根据反馈的指导不断调整、修改项目。今年，我们提出了"BRIEF"周期性迭代方法，以完成IHP。目的是确保项目符合实际需要,通过反馈不断提高项目业绩,满足利益攸关方的需求,并为社会作出贡献，以构建出对世界有益并且负责任的项目。
+
+The core of HP is to present project designs and products to the community and stakeholders, get feedback, integrate feedback into the project, and constantly adjust and modify the project according to the guidance of the feedback. This year, we proposed the "BRIEF" periodic iteration method to complete IHP. The aim is to ensure that projects meet practical needs, continuously improve project performance through feedback, meet the needs of stakeholders, and contribute to society in order to build projects that are good and responsible for the world.
+
+![](https://static.igem.wiki/teams/5358/ihp/brief.jpg)
 
 
-**\*（不知道还有没有时间另做流程图了）\***
 
-“BRIEF”概念包括五个IHP实施的环节，分别为头脑风暴(Brainstorming)、项目调研(Researching)、意见建议整合(Insight Integrating)、项目实施与调整(Executing and Adjusting)、反馈再收集(Feedback Recollecting)五个环节。
+The "BRIEF" concept consists of five phases of IHP implementation, They are Brainstorming, Researching, Insight Integrating, Executing and Adjusting, and Feedback Recollecting five aspects. Among them, Executing and Adjusting the project is a bridge connecting Brainstorming, Researching, Insight Integrating and Feedback Recollecting. Throughout IHP, we build a cycle of finding meaning, reaching out, and connecting our projects to the world.
 
 ## Brainstorming
 
-我们队伍今年关注新污染物的检测。在项目开始之际，我们对于新污染物展开了广泛的调研，并且聚焦到了内分泌干扰物、微塑料、抗生素、持久性污染物四种，以其具有较大的危害并且检测方法成本高、操作麻烦。
+Our team is focusing on detecting new pollutants this year. At the beginning of the project, we carried out extensive research on new pollutants, and focused on endocrine disruptors, microplastics, antibiotics, persistent pollutants four, because of their greater harm and detection methods are expensive and difficult to operate.
 
-此后我们根据检测难度、对环境的危害大小与阳性结果意义筛选出了内分泌干扰物，并且调研到内分泌干扰物和其代谢产物具有的两种主要毒理学效应——内分泌干扰效应DNA损伤效应。内分泌干扰物本身具有内分泌干扰效应，可以使集体激素调控紊乱；其产物还具有氧化损伤效应，可以破坏生殖细胞DNA使其受损。这两种毒理学效应共同导致了内分泌干扰物的生殖毒性；此外内分泌干扰物还具有神经毒性、肝毒性等。
+Since then, endocrine disruptors have been screened according to the difficulty of detection, the harm to the environment and the significance of positive results. In the traditional evaluation system of endocrine disruptors, most of the main methods are to detect their binding with hormone receptors. However, due to the extensive and complex toxic effects of endocrine disruptors and their metabolites on organisms, the traditional detection methods are obviously inadequate.
 
-（配图可以放调研的四个污染物的文献于基础组的背景（？））
 
-我们投头脑风暴的结果即是构建基于门控的多毒理效应筛选传感器，用与门同时检测工厂与企业产品，或环境中未知样本是否同时具有内分泌干扰效应DNA损伤效应。
 
-## Researching 
+The result of our brainstorming is to build a gate-based multi-toxicological screening sensor that can simultaneously detect endocrine disrupting effects and DNA damage effects in factory and enterprise products, or unknown samples in the environment.
 
-我们在确定研究内分泌干扰物后，通过文献调研筛选出可以检测内分泌干扰物的方法并进行可行性分析，最后确定了通过构建激素类似物敏感型内含肽以检测内分泌干扰物的方法并且与用于检测DNA损伤效应的大肠杆菌SOS氧化损伤响应系统、hrp放大器耦合以构建基于门控的多毒理效应筛选传感器的设计。此外我们调研到内含肽序列发现其碱基数过大，会给大肠杆菌造成较重的负担，所以检测两种效应的元件分在两个细菌内，使用LuxI/LuxR系统进行交流。生物传感器使用荧光蛋白报告。
+## Researching
 
-以上即为我们项目的初始设计。
+After determining the study of endocrine disruptors, we screened out methods that could detect endocrine disruptors through literature research and conducted feasibility analysis. Finally, a method was established to detect endocrine disruptors by constructing hormone analogues sensitive peptides and coupled with Escherichia coli SOS oxidative damage response system and hrp amplifier for detecting DNA damage effects to construct a gated multi-toxicological effects screening sensor design. In addition, we investigated the contained peptide sequence and found that the number of bases was too large, which would cause a heavy burden on Escherichia coli. Therefore, the components for detecting the two effects were divided into two bacteria, and the LuxI/LuxR system was used for communication. Biosensors use fluorescent protein reports.
+This is the initial design of our project.
 
 ## Insight Integrating
 
-为了向利益相关者确认我们的项目的社会需求，我们联系了环境检测公司、政府部门、工厂与污水处理厂以询问污染物监测的需求与现状。
+In order to identify the social needs of our project with stakeholders, we contacted environmental testing companies, government departments, factories and wastewater treatment plants to ask about the needs and status of pollutant monitoring. In addition, in order to enhance the professional and scientific nature of the project, we also consult with researchers in related fields to adjust our research direction and research content.
 
 ### Government Department
 
 #### Bureau of Ecology Environment and Environmental Protection
 
-在2024年5月23日，我们队员找到重庆市生态环境与环境保护局的官员罗女士咨询我们项目的社会需求。
+On May 23, 2024, our team members approached Ms. Luo, an official of Chongqing Ecological Environment and Environmental Protection Bureau, to consult the social needs of our project.
+First of all, we consulted the definition method, detection and registration process and control measures of endocrine disruptors. Luo pointed out that after confirming that a substance is polluting, the government departments will commission professional technical institutions to conduct research and investigation every year, and if the result is ultra-ultra-trace, relatively safe, no further measures will be taken. But if the concentration is high, the government will take measures and test the water quality of the test site or its source to track its possible source. In the analysis of new pollutants, including endocrine disruptors, government departments will conduct toxicological tests on chemical substances based on cutting-edge international research to determine that a substance may be harmful to the human body. This is a very important part of the testing process, because the government departments will concentrate the samples, which will lead to a variety of substances will be detected, and only when these substances are associated with toxicological effects and confirmed to be harmful to the human body, it is necessary to define endocrine disruptors and monitor. In terms of control, the government has corresponding emission standards for well-known endocrine disruptors; For new pollutants such as endocrine disruptors detected, the government will continue to confirm whether they belong to the emission substances already on the control list. For the situation where the pollutant index exceeds the standard, the government department will require the enterprise to take corresponding treatment measures and implement management measures such as regular review in the follow-up to supervise the rectification results.
 
-首先我们咨询了新污染物的界定方法、检测登记流程与管控措施。罗指出，在确认一种物质有污染性后，政府部门每年会委托专业的技术机构进行研究调查，如果结果是超超痕量，比较安全，就不会进一步的采取措施；但是如果测得浓度较高，政府部门就会采取措施，并对检测地或者它的污染源的水质进行检测，来跟踪它可能的来源。在新污染物分析方面，政府部门会根据国际前沿研究，针对化学物质进行毒理实验，确定某种物质可能对人体是有害的。这是很重要的检测环节，因为政府部门会对样品进行浓缩，这将导致很多种物质均会被检测出，而只有将这些物质与毒理学效应关联，确认了其对人体是有危害的，才有必要定义为新污染物并进行监测。在管控方面，对于知名的内分泌干扰物，政府有相应的排放标准；对于检测出的新污染物，政府部门会继续确认它是否属于已经列入管控名单的排放物质。对于污染物指标超标的情况，政府部门会要求企业采取相应的处理措施并在后续实施定期复核等管理措施监督整改结果。
 
-对于内分泌干扰物，罗指出在一些研究中，所有有机物都被划定为我们所调研的内分泌干扰物，这是不精确的；现有的研究思路是对每一种新出现的物质进行独立研究而后归类。内分泌干扰物的检测场地一般在饮用水源地等其他重要的水体、畜禽养殖场和化工厂等排放源。
 
-其次我们提出了利用特异性识别内分泌干扰物的工程菌构建的生物传感器判断水质中是否含有内分泌干扰物的方法与罗讨论。罗首先证实了在环境领域，前几年国外推出的应急设备中确实包含了微生物传感器与荧光检测技术以应对突发的应急环境事故。对于内分泌干扰物，政府并未将它们纳入例行检测任务，但会定期包含在检测工作中。政府更倾向于采用更加准确的检测方法检测内分泌干扰物。因此，从这种角度来看，提高检测的精确度和灵敏度也是非常有益且重要的。
+As for endocrine disruptors, Luo pointed out that in some studies, all organic compounds were classified as endocrine disruptors under investigation, which is not accurate; The current approach is to study each emerging substance independently and then classify it. The test site of endocrine disruptors is generally in other important water bodies such as drinking water sources, livestock and poultry farms and chemical plants and other emission sources.
 
-简而言之，罗肯定了我们项目针对环境中内分泌干扰物使用高灵敏度与特异性的生物传感器的检测方法，这对于政府部门检测内分泌干扰物来说是十分需要且有益的，我们的项目与政府部门的需求是契合的。
+Secondly, we proposed a method to determine whether the water quality contains endocrine disruptors by using the biosensor constructed by the engineering bacteria that specifically recognizes endocrine disruptors. Luo first confirmed that in the environmental field, the emergency equipment launched abroad in the past few years does include microbial sensors and fluorescence detection technology to deal with sudden emergency environmental accidents. For endocrine disruptors, the government does not include them in routine testing tasks, but they are regularly included in testing efforts. The government prefers to use more accurate tests to detect endocrine disruptors. Therefore, from this point of view, improving the accuracy and sensitivity of the detection is also very beneficial and important.
+
+In short, Luo affirmed our project's detection method of using highly sensitive and specific biosensors for endocrine disruptors in the environment, which is very necessary and beneficial for government departments to detect endocrine disruptors, and our project is in line with the needs of government departments.
 
 ### Environmental Testing Company
 
 #### Shanghai Environmental Monitoring Technology Co., Ltd
 
-为了继续了解新污染物的界定方法与检测登记流程，2024年8月1日，我们找到上海市环境监测技术有限公司总工程师郭先生进行咨询。
+![](https://static.igem.wiki/teams/5358/ihp/guo.png)
 
-郭指出，污染物的确定首先是根据国家已经发现的污染物，它们的排放往往超过了规定的标准，而需要进行分类和标准的制定。对这些污染物的研究则需要通过效应分析、毒理分析、过程分析判断是否对人体有伤害作用。其次是借助国外的文献研究与国内的实际情况结合以制订标准化的检测流程，来发现新污染物。现在大多数新污染物的界定就是最开始它被发现对人体有害，然后对其进行具体分析。
+In order to continue to understand the definition method and testing registration process of new pollutants, on August 1, 2024, we found Mr. Guo, chief engineer of Shanghai Environmental Monitoring Technology Co., Ltd. for consultation.
 
-对于新污染物分析标准，郭提到随着工业发展，一些新的物质会被不断研究出来，但是其对人体有没有害需要经过科学的判断过程确定，如果发现它对人体有害则需要立即纳入监管。上海市根据国家的要求已经把目前所要研究的新污染物纳入了监管。不管是检测机构还是行业系统，都在不断的开发对新污染物监测的方法，而目前的检测仪器是精密而昂贵的。
+Guo pointed out that the determination of pollutants is first based on those already found by the country, and their emissions often exceed the prescribed standards, while classification and the formulation of standards are needed. The study of these pollutants needs to determine whether they have harmful effects on the human body through effect analysis, toxicology analysis and process analysis. Secondly, the use of foreign literature research combined with the actual situation in China to develop a standardized detection process to find endocrine disruptors. The definition of most new pollutants, especially endocrine disruptors, is that they are first found to be harmful to human health, and then they are analyzed in detail.
 
-在和罗与郭的交流中，他们均肯定了我们对于通过毒理学效应检测被分泌污染物等新污染物的思路与其重要性。
+
+
+For the analysis standards of new pollutants such as endocrine disruptors, Guo mentioned that with the development of industry, some new substances will be continuously studied, but whether it is harmful to the human body needs to be determined through a scientific judgment process, and if it is found to be harmful to the human body, it needs to be immediately included in the supervision. According to the requirements of the state, Shanghai has put the new pollutants to be studied into the supervision. Both testing organizations and industry systems are constantly developing methods to detect new pollutants, including endocrine disruptors, and current detection instruments are sophisticated and expensive.
+
+In the subsequent improvement process, the hardware device has undergone a simplified design to achieve the above design goals of portability and miniaturization.
+
+In the communication with Luo and Guo, they both affirmed our thinking and importance of detecting new pollutants such as endocrine pollutants through toxicological effects.
 
 ### Factory and Enterprise
 
-我们下一步计划从相关单位、公司的角度来了解关于新型污染物包括内具有生物毒理性的污染物的检测分析现状如何以及目前存在的具体的需求，并且据此询问项目是否存在可以应用的场景。根据先前罗的指引，我们在2024年8月1日找到上海市一座污水厂与一座自来水厂展开采访。
+
+
+Our next step is to understand the current status of the detection and analysis of endocrine disruptors from the perspective of relevant units and companies, as well as the specific needs currently existing, and ask whether there are applicable scenarios for the project. In accordance with Luo's previous guidance, we found a sewage plant and a water plant in Shanghai on August 1, 2024.
 
 #### Shanghai Taihe Wastewater Treatment Plant
 
-我们找到上海泰和污水厂的主管刘先生，他对上述问题的答复是污水厂主要监管的污染物是Cod，Bod，氨，氮，还有磷，但是由于污水厂的污染物监管形式是将水样送至检测机构进行检测并且生活污水涉及具有毒理学性质的物质较少，所以上游现在是没有对毒理效应分析技术的需求的。
+![](https://static.igem.wiki/teams/5358/ihp/liu.png)
 
-对于我们的项目，刘先生说由于以上原因，暂时没有相关的使用场景。
+We have found Mr. Liu, director of Shanghai Taihe Sewage Plant. His reply to the above question is that the main pollutants under supervision of the sewage plant are Cod, Bod, ammonia, nitrogen and phosphorus. However, the pollutants under supervision of the sewage plant are to send water samples to testing institutions for testing, and domestic sewage involves few substances with toxicological properties.
+
+For our project, Mr. Liu said that due to the above reasons, the emergence of relevant technologies is temporarily lacking. Therefore, we should reflect on the use cases of our own projects and focus on providing services to government departments and environmental monitoring agencies.
 
 #### Shanghai Nanhui Water Plant
 
-在饮用水行业我们找到上海南汇水厂厂长马先生进行咨询。针对以上问题，厂长指出在饮用水行业现行的新污染物的检测必须要用到比较昂贵的仪器，其检测的要求与操作比较比较繁杂；对于生物传感器的使用存在对水源水的应急检测的需求。针对我们队伍的项目，厂长提出了其可以应用在上述水源水的快速应急监测中，并且提出了我们的产品针对饮用水水源水同时进行定性与定量检测的建议与技术需求。
+![](https://static.igem.wiki/teams/5358/ihp/ma.png)
 
-因此对于工厂与企业，我们的项目在饮用水水源水的快速应急监测中具有需求，需要我们在项目基础上设计能进行定性与定量的，同时搭载在便携式检测设备上的基于门控的多毒理效应筛选传感器。
+In the drinking water industry, we found Mr. Ma, director of Shanghai Nanhui Water Plant, for consultation. In response to the above problems, the director pointed out that the detection of new pollutants in the drinking water industry, including endocrine disruptors, must use more expensive instruments, and the detection requirements and operations are more complicated; There is a need for emergency detection of source water for the use of biosensors. In view of our team's project, the factory director put forward that it can be applied in the rapid emergency monitoring of the above source water, and put forward the suggestions and technical requirements of our products for both qualitative and quantitative testing of drinking water source water.
 
-简而言之，我们调研到的内分泌干扰物检测的必要性得到了实际的确认。目前包括内分泌干扰物在内的新污染物检测较为被动，方法上较为偏重毒理学分析，并且具有高昂的成本和繁琐的操作。因此利益相关者们的确需要一个高灵敏度、特异性的检测未知样品中内分泌干扰效应与DNA损伤效应两种重要的毒理学效应，同时此类传感器的硬件设备也要达到便携式与小型化。
+Therefore, for factories and enterprises, our project has a demand in the rapid emergency monitoring of drinking water source water, and we need to design a gate-based multi-toxicological effect screening sensor that can carry out qualitative and quantitative analysis on the basis of the project and is equipped with portable detection equipment.
 
-所有采访稿件经允许后均上传至wiki。
-
-**\*这部分需要线上会议的配图和被采访者的证件照与名字（如果有的话）\***
+In short, the need for endocrine disruptor testing that we investigated is actually confirmed. At present, the detection of new pollutants including endocrine disruptors is more passive, and the method is more heavy on toxicological analysis, and has high cost and cumbersome operation. Therefore, there is a real need for a highly sensitive and specific detection of endocrine disruption and DNA damage in unknown samples, two important toxicological effects, and the hardware of such sensors must be portable and miniaturized.![](https://static.igem.wiki/teams/5358/ihp/projectpropose.png)
 
 
 
-所有采访稿件经允许后junjun
+### Professional research personnel
 
-## Executing and Adjusting
+![](https://static.igem.wiki/teams/5358/ihp/yang.jpg)
 
-在得到并整合了利益相关者的需求与观点后，我们开始项目的湿实验与干实验。
+We had an in-depth discussion on Modeling with Professor Yang Guanghui of China Agricultural University. He first gave a positive opinion of our idea. As the latest achievement in the field of bioinformatics, Alphafold3 has a high degree of confidence in the prediction of protein structure function, which can effectively guide our research in synthetic biology. But he also points out that the number and length of hydrogen bonds alone cannot accurately measure how folded a protein domain is. The main force in protein folding is hydrophobic interaction. However, there are no effective means to quantitatively measure the degree of protein folding and the strength of hydrophobic interaction. He encouraged us to work in this direction, hoping that we would be able to measure protein folding from other angles.
 
-我们的湿实验部分最初的设计是与利益相关者反映的需求契合的，而干实验则经历了调整：硬件设备则经历了设计的简化，以达到上述便携与小型化的设计目标。
+Inspired by this, and after subsequent investigation, we will use Chimera1.13 software to analyze the hydrophobic interaction of the protein conformation obtained by molecular dynamics simulation (MDS), and measure the hydrophobic interaction intensity by comparing the hydrophobic potential around the recAN end and the C-end, so as to compare the degree of folding of this domain in the protein
 
 
 ## Feedback Recollecting
 
-在我们项目的实验取得初步成果后，我们计划将设计的产品原型带给内分泌干扰物领域专家与先前的利益相关者们进行评价与反馈的再收集，以继续调整我们的项目；同时我们也将从反馈中发现新的创新点和需求，以在未来展开新一轮的"BRIEF"循环，完成闭环。
+
+
+We plan to bring the prototype design to endocrine disruptor experts and previous stakeholders, and continue to receive their comments and feedback to continue to adapt our project; At the same time, we will also find new innovation points and needs from the feedback, so as to launch a new round of "BRIEF" cycle in the future and complete the closed loop.
+
+![](https://static.igem.wiki/teams/5358/ihp/executingandadjusting.png)

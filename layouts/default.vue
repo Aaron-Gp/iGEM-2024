@@ -6,8 +6,8 @@
             <div class="fixed right-[-8vw] top-[35vh] opacity-20 z-[-1]">
                 <NuxtImg provider="iGEM" src="/icons/logo.png" class="w-[30vw]" />
             </div>
-            <div class="fixed bg-circle-1"></div>
-            <div class="fixed bg-circle-2"></div>
+            <!-- <div class="fixed bg-circle-1"></div> -->
+            <!-- <div class="fixed bg-circle-2"></div> -->
         </div>
         <Footer />
     </div>
@@ -15,7 +15,9 @@
 
 <style>
 body {
-    background: rgba(8, 0, 28, 1);
+    background-image: url("/imgs/bg.png");
+    background-repeat: repeat-y;
+    background-size: cover;
     color: white;
     overflow-x: hidden;
     max-width: 1920px;

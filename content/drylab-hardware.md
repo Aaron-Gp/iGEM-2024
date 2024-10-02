@@ -8,11 +8,11 @@ As EDCs continue to threaten aquatic environments and the quality of drinking wa
 
 To ensure that the hardware device truly meets the needs of system construction, we have adopted a typical engineering and project design approach, namely: **demand analysis, scheme proposal, feasibility verification, feedback , system improvement, and goal achievement.** This process is an iterative one, and after several cycles, it ultimately meets all the needs and objectives.
 
- 
+
 
 ![](https://static.igem.wiki/teams/5358/hardware/1.png)
 
-Figure 1 Hardware Design Flowchart
+[Figure 1 Hardware Design Flowchart]{.fig-title}
 
  
 
@@ -34,13 +34,13 @@ In order to enable smartphone software to automate the control of hardware devic
 
 ![](https://static.igem.wiki/teams/5358/hardware/2.png)
 
-Figure 2 First Edition Design Scheme
+[Figure 2 First Edition Design Scheme]{.fig-title}
 
  
 
 ![](https://static.igem.wiki/teams/5358/hardware/3.png)
 
-Figure 3 Circuit Diagram
+[Figure 3 Circuit Diagram]{.fig-title}
 
  
 
@@ -55,12 +55,20 @@ For the communication module, we used the HC-05 Bluetooth module to connect the 
 In the initial version of the scheme, we used an STM32 chip as the **microcontroller Unit(MCU)**, connecting temperature control module, fluorescence detection module, and Bluetooth communication module, ensuring the normal operation of the device through programming instructions.
 
  
+<!-- [
+    ![](https://static.igem.wiki/teams/5358/hardware/4.png)
+    [Figure 5:  First Edition Implementation Scheme]{.block .fig-title}
+    ![](https://static.igem.wiki/teams/5358/hardware/5.png)
+    [Figure 6: First Edition Equipment Model Diagram]{.block .fig-title}
+]{.double-fig} -->
 
+::mdc-wrap{:class="table-fig"}
 
+| ![](https://static.igem.wiki/teams/5358/hardware/4.png)   | ![](https://static.igem.wiki/teams/5358/hardware/5.png)   |
+| :------------------------------------------------------------: | :-----------------------------------------------------------: |
+|   Figure 5:  First Edition Implementation Scheme                                                           |  Figure 6: First Edition Equipment Model Diagram                                                            |
 
-| ![](https://static.igem.wiki/teams/5358/hardware/4.png)  Figure 5:  First Edition Implementation Scheme | ![](https://static.igem.wiki/teams/5358/hardware/5.png)  Figure 6: First Edition Equipment Model Diagram |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                                                              |                                                              |
+::
 
  
 
@@ -74,11 +82,9 @@ To verify the constant temperature effect of the temperature control system, we 
 
 
 
-| ![](https://static.igem.wiki/teams/5358/hardware/6.png)      | ![](https://static.igem.wiki/teams/5358/hardware/7.png) |
-| ------------------------------------------------------------ | ------------------------------------------------------- |
-| Figure 7 Measurement Results of  Initial Scheme's Temperature Stability |                                                         |
+[![](https://static.igem.wiki/teams/5358/hardware/6.png) ![](https://static.igem.wiki/teams/5358/hardware/7.png)]{.flex .gap-4}
 
-
+[Figure 7 Measurement Results of  Initial Scheme's Temperature Stability]{.fig-title}
 
 ### Gradient Fluoresce in Sodium Fluorescence Detection Verification
 
@@ -86,7 +92,7 @@ The AS7341 fluorescence sensor, by integrating filters of different wavelength b
 
 ![](https://static.igem.wiki/teams/5358/hardware/8.png)
 
-Figure 8 Initial Scheme's Fluorescence Verification Fitting Curve
+[Figure 8 Initial Scheme's Fluorescence Verification Fitting Curve]{.fig-title}
 
 The above feasibility verification demonstrates that the temperature control module and fluorescence detection module designed in the first version of the scheme can meet the design requirements and are feasible.
 
@@ -108,7 +114,7 @@ In response to the issues raised and the suggestions from the instructors, we ha
 
 **![](https://static.igem.wiki/teams/5358/hardware/9.png)**
 
-Figure 9 Improved Design Scheme
+[Figure 9 Improved Design Scheme]{.fig-title}
 
  
 
@@ -116,19 +122,19 @@ Firstly, we replaced the STM32F103C8T6 with the Arduino Nano ESP32 chip as the M
 
 ![](https://static.igem.wiki/teams/5358/hardware/10.png)
 
-Figure 10 Improved Design Circuit Diagram
+[Figure 10 Improved Design Circuit Diagram]{.fig-title}
 
 To meet the demand for high-throughput detection, we proposed two solutions: a microfluidic chip rotation detection platform and a linear slide rail detection platform. After modeling analysis and feasibility analysis, we ultimately chose the linear slide rail detection platform and designed a brand-new enclosure for it.
 
 ![](https://static.igem.wiki/teams/5358/hardware/11.png)
 
-Figure 11 Implementation Plan of the New Equipment
+[Figure 11 Implementation Plan of the New Equipment]{.fig-title}
 
  
 
 ![](https://static.igem.wiki/teams/5358/hardware/12.png)
 
-Figure 12 Model Diagram of the New Equipment
+[Figure 12 Model Diagram of the New Equipment]{.fig-title}
 
 
 ### Goal Achievement
@@ -144,13 +150,10 @@ Temperature Control Capability Test
 We conducted another temperature stability test on the latest version of the system. The results shown in Figure 12 indicate that the absolute difference between the average temperature and the set temperature is less than 0.3°C, suggesting that the stability of the improved temperature control system has been further enhanced. This can well meet practical requirements.
 
 
-
-| ![](https://static.igem.wiki/teams/5358/hardware/13.png) | ![](https://static.igem.wiki/teams/5358/hardware/14.png)  Figure 13 Measurement Results of Temperature Fluctuation |
-| -------------------------------------------------------- | ------------------------------------------------------------ |
-|                                                          |                                                              |
-
  
+[![](https://static.igem.wiki/teams/5358/hardware/13.png) ![](https://static.igem.wiki/teams/5358/hardware/14.png)]{.flex .gap-4}
 
+[Figure 13 Measurement Results of Temperature Fluctuation]{.fig-title}
 
 
 ##### Gradient Fluorescein Sodium Fluorescence Detection Verification
@@ -159,7 +162,7 @@ The fluorescence validation test of the latest equipment shows that the tested R
 
 ![](https://static.igem.wiki/teams/5358/hardware/15.png)
 
-Figure 14 Fluorescence Verification Experiment Fitting Curve
+[Figure 14 Fluorescence Verification Experiment Fitting Curve]{.fig-title}
 
 ## Android Software
 
@@ -189,8 +192,8 @@ In designing the hardware, we employed engineering and project design approaches
 
 To facilitate user operation, we have added detailed user instructions in the App and will record demonstration videos for ease of use. At the same time, we have organized detailed system design blueprints and modeling files, as well as detailed component selection and manufacturing methods. You can contact us on the contribution page to obtain the relevant documents, thereby assisting other participants in replicating our device. Our main controller and major systems utilize common integrated units, while other parts are made using industrial processing and 3D printing techniques, making them easy to replicate for reference and implementation by other teams.
 
-References
+[*References*]{.text-2xl}
 
-[1] Wang Y, Chen H, Lin K, et al. Ultrasensitive single-step CRISPR detection of monkeypox virus in minutes with a vest-pocket diagnostic device[j]. Nature Communications, 2024, 15(1):3279.
+1. Wang Y, Chen H, Lin K, et al. Ultrasensitive single-step CRISPR detection of monkeypox virus in minutes with a vest-pocket diagnostic device[j]. Nature Communications, 2024, 15(1):3279.
 
  
