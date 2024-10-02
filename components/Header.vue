@@ -137,6 +137,11 @@ watch(
         .el-sub-menu__title {
             padding: 0;
             border: none;
+
+            &:hover {
+                --el-menu-bg-color: transparent;
+                --el-menu-hover-bg-color: transparent;
+            }
         }
 
         &.is-active .el-sub-menu__title {

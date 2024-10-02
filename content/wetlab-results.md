@@ -44,7 +44,6 @@ Later, we compared the characterization difference between DH5α strain and BL21
 
 [Figure 4. Fluorescence characterization gradients of DH5α and BL21 under aerobic and NA gradient injury conditions.]{.fig-title}
 
- 
 
 ## 2. pET28-PrecA-hrpR-hrpS-PhrpL-BsFbFp-BL21
 
@@ -62,7 +61,7 @@ The gene circuits were ligated to the pET28 vector using enzyme ligation and tra
 
 The gene sequencing conducted by our company has successfully validated the synthesis of the intein of the biological circuit.
 
- 
+
 ![img](https://static.igem.wiki/teams/5358/experiment/fig3.png) 
 
 ![img](https://static.igem.wiki/teams/5358/experiment/gene-squencing.png) 
@@ -88,20 +87,3 @@ We obtained by PCR the Pj233100, Plux-LuxR, LuxI, and EGFP and ligated it to the
 
 [Figure 9. Enzyme Ligation Product of psB1C3-Pj23100-LuxI-BL21 and Plux-LuxR-EGFP-BL21.]{.fig-title}
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 

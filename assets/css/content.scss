@@ -87,8 +87,24 @@
     .table-fig {
         @apply my-10;
 
+        tbody {
+            @apply leading-normal;
+        }
+
         td {
             @apply pt-5;
+        }
+
+        th {
+            @apply border-none p-0;
+        }
+
+        tr:nth-child(odd) {
+            @apply bg-transparent;
+        }
+
+        img {
+            @apply m-2;
         }
     }
 
@@ -102,6 +118,30 @@
             content: "(" counter(sectioncounter) ")";
             counter-increment: sectioncounter;
             margin-right: 1rem;
+        }
+    }
+
+
+    table {
+        @apply mx-auto;
+
+        thead {
+            @apply text-center;
+        }
+        th {
+            @apply border-y px-5 text-wrap break-keep whitespace-pre-wrap;
+            border-color: rgba(200, 213, 279, 1.0);
+        }
+        td {
+            // @apply border-y border-white;
+        }
+
+        tbody {
+            @apply text-center leading-10;
+
+            tr:nth-child(odd) {
+                background-color: rgba(218, 227, 245, 0.4);
+            }
         }
     }
 

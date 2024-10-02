@@ -16,7 +16,7 @@
 [Figure 1. BsFbFp circuits]{.fig-title}
 
 
-​	Genetic circuit: Gene recA and BsFbFp were all synthesized by Sangon Biotech according to BIOBRICK standard, and the gene circuit was obtained by PCR and verified by agarose gel electrophoresis.
+​Genetic circuit: Gene recA and BsFbFp were all synthesized by Sangon Biotech according to BIOBRICK standard, and the gene circuit was obtained by PCR and verified by agarose gel electrophoresis.
 
 
 
@@ -128,7 +128,8 @@ Construction of plasmid: In the multi-round adjustment experiments of the ligati
 
 ​
 The agarose gel electrophoresis results showed that after redesigning the PCR primers and increasing the number of protective bases on both sides of the restriction enzyme cutting sites from one or none to three, only one band was observed for the target fragment, indicating that the new PCR primers have strong specificity and the target fragment was successfully obtained.
-​	However, due to time constraints, we did not proceed with the subsequent experiments.
+​
+However, due to time constraints, we did not proceed with the subsequent experiments.
 
 ##### Test
 
@@ -173,7 +174,7 @@ In terms of material selection, we have adopted a black silicone kit and an alum
 
 #### Establishment
 
-​	The system construction utilized common integrated modules, with the main controller being an ESP32 chip, and temperature control and detection were accomplished using the TCM temperature control module and LIDE Technology's FM series digital fluorescence detection module, respectively. We employed industrial processing techniques to fabricate the aluminum alloy temperature-controlled slots, while the casing and other components were created using 3D printing technology.
+​The system construction utilized common integrated modules, with the main controller being an ESP32 chip, and temperature control and detection were accomplished using the TCM temperature control module and LIDE Technology's FM series digital fluorescence detection module, respectively. We employed industrial processing techniques to fabricate the aluminum alloy temperature-controlled slots, while the casing and other components were created using 3D printing technology.
 
 
 ![Schematic Diagram of Hardware Equipment](https://static.igem.wiki/teams/5358/engineering-success/new.png)
@@ -187,7 +188,7 @@ In terms of material selection, we have adopted a black silicone kit and an alum
 
 #### Test
 
-​	After finalizing the initial plan, we first carried out feasibility tests to verify the functionality of the fluorescence system and the temperature control system. After assembling the initial version of the model, numerous issues were identified through usage testing and preliminary risk analysis, such as the susceptibility of the fluorescence system to interference and the instability of the temperature control system. Through a cycle of testing, feedback, improvement, and retesting, the final version of the model demonstrated excellent performance across all aspects. Experiments showed that fluorescence identification was highly accurate, and the overall aesthetics were significantly enhanced.
+​After finalizing the initial plan, we first carried out feasibility tests to verify the functionality of the fluorescence system and the temperature control system. After assembling the initial version of the model, numerous issues were identified through usage testing and preliminary risk analysis, such as the susceptibility of the fluorescence system to interference and the instability of the temperature control system. Through a cycle of testing, feedback, improvement, and retesting, the final version of the model demonstrated excellent performance across all aspects. Experiments showed that fluorescence identification was highly accurate, and the overall aesthetics were significantly enhanced.
 
 
 ![Results of Temperature Control Experiment](https://static.igem.wiki/teams/5358/engineering-success/results-of-temperature-control-experiment.png)
@@ -201,7 +202,7 @@ In terms of material selection, we have adopted a black silicone kit and an alum
 
 #### Learn
 
-​	During the process of designing the device, we encountered various challenges, such as overly complex control systems, insufficient stability, inability to conduct multi-sample testing, and issues with the optical path design. Throughout the real-time testing and discussion phases, we continuously documented various issues, proposed improvement plans, and actively sought help from knowledgeable teachers and consultants. Eventually, we completed a hardware design that met the requirements. Through continuous learning, improvement, and questioning, our expertise in the relevant fields has been greatly boosted.
+​During the process of designing the device, we encountered various challenges, such as overly complex control systems, insufficient stability, inability to conduct multi-sample testing, and issues with the optical path design. Throughout the real-time testing and discussion phases, we continuously documented various issues, proposed improvement plans, and actively sought help from knowledgeable teachers and consultants. Eventually, we completed a hardware design that met the requirements. Through continuous learning, improvement, and questioning, our expertise in the relevant fields has been greatly boosted.
 
 ## Software
 

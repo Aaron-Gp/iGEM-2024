@@ -35,7 +35,6 @@ Protocol
 - The product is stored at -10°C;
 
 
-
 ##### **Agarose gel electrophoresis and sample recovery**
 
 Material
@@ -92,7 +91,6 @@ Protocol
 
 After adding the following enzyme digestion system to a 0.2 mL centrifuge tube, incubate it in an incubator at 37°C for 2 h.
 
- 
 
 | Enzyme digestion system | Volume |
 | ----------------------- | ------ |
@@ -157,11 +155,11 @@ Transfer The bacteria solution cultured overnight to 30mL fresh non-resistant LB
 Method 1：The bacterial solution was added to DNA damaging agent, dropped into anaerobic row and incubated for 2h in a 37 C incubator. Measure OD600 and fluorescence intensity of bacterial solution by microplate reader;
 
 Method 2：The bacterial solution was sealed using paraffin oil and DNA damaging agents were added under the paraffin oil page and incubated for 2h in a 37 C incubator. Measure OD600 and fluorescence intensity of bacterial solution by microplate reader;
- 
 
-| DNA damaging reagent | Concentration gradient |      |      |      |      |      |      |
-| -------------------- | ---------------------- | ---- | ---- | ---- | ---- | ---- | ---- |
-| NA                   | 0μL                    | 1μL  | 5μL  | 10μL | 15μL | 20μL | 25μL |
+
+| DNA damaging reagent | Concentration gradient |      |
+| -------------------- | ---------------------- | ---- |
+| NA                   | 0μL                    | 1μL 5μL 10μL 15μL 20μL 25μL| 
 
 
 
@@ -177,8 +175,6 @@ Transfer 200μL of the bacteria solution to a 96-hole black microplate and place
 Transfer 200μL of the bacteria solution to a 96-hole black microplate and place it in a microplate reader. Set the excitation wavelength to 488 nm, emission wavelength to 520 nm, and gain to 75. Measure the fluorescence intensity.
 
 
-
 Each group of data was measured three times and averaged.
-
 
  

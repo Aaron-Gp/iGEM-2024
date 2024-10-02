@@ -85,4 +85,3 @@ Our part successfully detected DNA damage and endocrine disruptors caused by the
 | BBa_R0062    | Regulatory        | The inducible promoter in lux gene regulatory network        | 55bp   |
 | BBa_C0062    | Coding            | The activator protein luxR in lux gene regulatory network    | 781bp  |
 
-

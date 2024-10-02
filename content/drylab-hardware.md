@@ -8,13 +8,10 @@ As EDCs continue to threaten aquatic environments and the quality of drinking wa
 
 To ensure that the hardware device truly meets the needs of system construction, we have adopted a typical engineering and project design approach, namely: **demand analysis, scheme proposal, feasibility verification, feedback , system improvement, and goal achievement.** This process is an iterative one, and after several cycles, it ultimately meets all the needs and objectives.
 
-
-
 ![](https://static.igem.wiki/teams/5358/hardware/1.png)
 
 [Figure 1 Hardware Design Flowchart]{.fig-title}
 
- 
 
 ## Demand Analysis
 
@@ -26,9 +23,6 @@ Since the concentration of **EDCs** in the detection samples is very low，which
 
 In order to enable smartphone software to automate the control of hardware devices and visualize the detection results, the construction of hardware devices needs to consider the transmission of data between software and hardware.
 
- 
-
-
 
 ## Scheme Proposal
 
@@ -36,31 +30,22 @@ In order to enable smartphone software to automate the control of hardware devic
 
 [Figure 2 First Edition Design Scheme]{.fig-title}
 
- 
 
 ![](https://static.igem.wiki/teams/5358/hardware/3.png)
 
 [Figure 3 Circuit Diagram]{.fig-title}
 
- 
 
 In the construction of the **temperature control module**, we employed an NTC thermistor as the **temperature sensor**, utilizing heating FILM and fan as the heat and cold sources respectively. To achieve **PID regulation** for **temperature sensing and control**, we used the PWM wave output from the **TB6612FNG motor drive** to adjust the power of the fan and heating FILM, thereby maintaining dynamic temperature stability.
 
 For the selection of the detection scheme, we comprehensively considered the detection accuracy and the portability of the device, ultimately choosing the **fluorescence detection module**. We initially selected the AS7341 as **fluorescence sensor** [1]. Concurrently, to ensure consistent fluorescence generation, we redesigned and optimized the optical path.
 
- After the marked fluorescence is excited by a blue LED, the fluorescence sensor collect and record real-time fluorescence signals, which can be visualized on the mobile software via a **communication module**.
+After the marked fluorescence is excited by a blue LED, the fluorescence sensor collect and record real-time fluorescence signals, which can be visualized on the mobile software via a **communication module**.
 
 For the communication module, we used the HC-05 Bluetooth module to connect the hardware system with the mobile software, enabling real-time monitoring of the hardware device's operating status and feedback of the detection results.
 
 In the initial version of the scheme, we used an STM32 chip as the **microcontroller Unit(MCU)**, connecting temperature control module, fluorescence detection module, and Bluetooth communication module, ensuring the normal operation of the device through programming instructions.
 
- 
-<!-- [
-    ![](https://static.igem.wiki/teams/5358/hardware/4.png)
-    [Figure 5:  First Edition Implementation Scheme]{.block .fig-title}
-    ![](https://static.igem.wiki/teams/5358/hardware/5.png)
-    [Figure 6: First Edition Equipment Model Diagram]{.block .fig-title}
-]{.double-fig} -->
 
 ::mdc-wrap{:class="table-fig"}
 
@@ -70,8 +55,6 @@ In the initial version of the scheme, we used an STM32 chip as the **microcontro
 
 ::
 
- 
-
 
 
 ### Feasibility Verification
@@ -79,7 +62,6 @@ In the initial version of the scheme, we used an STM32 chip as the **microcontro
 ### Temperature Stability Verification
 
 To verify the constant temperature effect of the temperature control system, we designed a temperature stability test experiment. When the temperature first reached 37°C, the temperature was recorded every 10 seconds for an additional 60 seconds. From the results shown in Figure 6, it can be concluded that the absolute difference between the average temperature and the set temperature was no greater than 1.1°C, and the temperature curve consistently fluctuated around 37°C. This indicates that the temperature control system can achieve dynamic temperature regulation, capable of maintaining the temperature close to 37°C. However, this temperature control method generates relatively large temperature fluctuations.
-
 
 
 [![](https://static.igem.wiki/teams/5358/hardware/6.png) ![](https://static.igem.wiki/teams/5358/hardware/7.png)]{.flex .gap-4}
@@ -116,7 +98,6 @@ In response to the issues raised and the suggestions from the instructors, we ha
 
 [Figure 9 Improved Design Scheme]{.fig-title}
 
- 
 
 Firstly, we replaced the STM32F103C8T6 with the Arduino Nano ESP32 chip as the MCU. The ESP32 features built-in Bluetooth communication capabilities and a rich set of peripheral interfaces. It supports the CMake and Ninja build systems, which will greatly simplify the design complexity. Its widespread adoption globally will also make it more universal and laying a foundation for future teams looking to design similar devices. For temperature control and detection, we replaced the original scheme with the TCM1040 temperature control module and the FM-4A digital fluorescence detection module from LIDE Technology, respectively. Compared to the original scheme, these modules offer more integrated features, further enhancing the accuracy and stability of the platform.
 
@@ -130,7 +111,6 @@ To meet the demand for high-throughput detection, we proposed two solutions: a m
 
 [Figure 11 Implementation Plan of the New Equipment]{.fig-title}
 
- 
 
 ![](https://static.igem.wiki/teams/5358/engineering-success/new.png)
 
@@ -148,7 +128,6 @@ The final system is primarily divided into a **sampling area** and a **detection
 Temperature Control Capability Test
 
 We conducted another temperature stability test on the latest version of the system. The results shown in Figure 12 indicate that the absolute difference between the average temperature and the set temperature is less than 0.3°C, suggesting that the stability of the improved temperature control system has been further enhanced. This can well meet practical requirements.
-
 
  
 [![](https://static.igem.wiki/teams/5358/hardware/13.png) ![](https://static.igem.wiki/teams/5358/hardware/14.png)]{.flex .gap-4}
