@@ -152,9 +152,9 @@ Transfer The bacteria solution cultured overnight to 30mL fresh non-resistant LB
 
 #### Experimental characterization of the anaerobic environment
 
-Method 1：The bacterial solution was added to DNA damaging agent, dropped into anaerobic row and incubated for 2h in a 37 C incubator. Measure OD600 and fluorescence intensity of bacterial solution by microplate reader;
+Method 1：The bacterial solution was added to DNA damaging agent, dropped into anaerobic row and incubated for 2h in a 37°C incubator. Measure OD600 and fluorescence intensity of bacterial solution by microplate reader;
 
-Method 2：The bacterial solution was sealed using paraffin oil and DNA damaging agents were added under the paraffin oil page and incubated for 2h in a 37 C incubator. Measure OD600 and fluorescence intensity of bacterial solution by microplate reader;
+Method 2：The bacterial solution was sealed using paraffin oil and DNA damaging agents were added under the paraffin oil page and incubated for 2h in a 37°C incubator. Measure OD600 and fluorescence intensity of bacterial solution by microplate reader;
 
 
 | DNA damaging reagent | Concentration gradient |      |

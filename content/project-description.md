@@ -68,8 +68,6 @@ To achieve signal communication between the two engineered bacteria, we studied 
 
 In response to the demands for standardized cultivation of engineered bacteria and high-sensitivity detection, we have designed a highly integrated and automated system that encompasses the entire process of bacterial strain revival, cultivation, detection, and analysis. The system utilizes an ESP32 chip as the main controller, interfaces with a temperature control system and a fluorescence detection system, employs a linear slide rail structure for high-throughput detection, and leverages a mobile app for automated device control and visualization of detection results. This system overcomes the limitations of time and space associated with traditional detection equipment, providing a versatile, portable, and highly sensitive solution for the detection of EDCs in aquatic environments across various scenarios.
 
-![img](https://static.igem.wiki/teams/5358/description/and-gate.png)
-
 ## *Reference*
 
 ::mdc-wrap{:class="reference"}
