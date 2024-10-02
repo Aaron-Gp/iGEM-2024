@@ -26,12 +26,12 @@
           aspects.
           We conducted a series of face-to-face propaganda activities, and adjusted the publicity methods to achieve the
           best
-          publicity effect in four different groups: students in poor areas, middle school students in urban areas,
+          publicity effect in four different groups: students in rural areas, middle school students in urban areas,
           college students
           and social groups.
         </p>
 
-        <h2 id="poor-area">Students in poor area - Textbook guided, easily acquired</h2>
+        <h2 id="rural-area">Students in rural area - Textbook guided, easily acquired</h2>
         <p>
           In Fangshan County, Shanxi Province, which is the counterpart of BIT, students can only acquire biological
           knowledge through
@@ -282,7 +282,7 @@ const groupedImages = ref([])
 // 提取图片链接并将它们分组
 onMounted(() => {
   const imagePaths = [
-    '1.jpg', '2.jpg', '3.jpg', // Group 1
+    '1.jpg', '2.jpg', '4.jpg', // Group 1
     '4.jpg', '5.jpg', '6.jpg', '7.jpg', // Group 2
     '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.png', // Group 3
     '13.jpg', '14.jpg', // Group 4

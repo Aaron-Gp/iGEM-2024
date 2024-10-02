@@ -98,7 +98,7 @@ const ADVs = [
         src: '/team1/advisor-qiancheng.jpg',
         degree: 'Advisor',
         major: 'Postgraduate',
-        content: '',
+        content: 'A girl who is passionate about synthetic biology.',
         offset: [-5, 0],
     },
     {

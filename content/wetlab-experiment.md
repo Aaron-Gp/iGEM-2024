@@ -178,7 +178,7 @@ Transfer 200μL of the bacteria solution to a 96-hole black microplate and place
 
 Transfer 200μL of the bacteria solution to a 96-hole black microplate and place it in a microplate reader. Set the excitation wavelength to 488 nm, emission wavelength to 520 nm, and gain to 75. Measure the fluorescence intensity.
 
- 
+
 
 Each group of data was measured three times and averaged.
 

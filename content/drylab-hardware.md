@@ -194,6 +194,9 @@ To facilitate user operation, we have added detailed user instructions in the Ap
 
 [*References*]{.text-2xl}
 
+::mdc-wrap{:class="reference"}
+
 1. Wang Y, Chen H, Lin K, et al. Ultrasensitive single-step CRISPR detection of monkeypox virus in minutes with a vest-pocket diagnostic device[j]. Nature Communications, 2024, 15(1):3279.
 
+::
  

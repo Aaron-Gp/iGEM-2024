@@ -11,9 +11,54 @@
 
 <script setup>
 useHead({
-    title: 'BIT iGEM 2024 - Inclusivity',
+    title: 'BIT iGEM 2024 - Parts',
     meta: [
         { name: 'description', content: 'Welcome to the BIT Wiki' },
     ],
 })
+
+
+const { scrollToAnchor, scrollToTop } = useAnchorScroll({
+    toTop: {
+        scrollOptions: {
+            behavior: 'smooth',
+            offsetTop: 0,
+        }
+    },
+    toAnchor: {
+        scrollOptions: {
+            behavior: 'smooth',
+            offsetTop: -120,
+        }
+    },
+})
+
+const scroll = ref('')
+const activateIndex = ref('')
+
+function loadScroll() {
+    var h2 = document.querySelectorAll(".content h2")
+    for (var i = h2.length - 1; i >= 0; i--) {
+        if (scroll.value >= h2[i].offsetTop - 130) {
+            // console.log(h2[i].id);
+            activateIndex.value = h2[i].id
+            break
+        }
+    }
+}
+
+function dataScroll() {
+    scroll.value = document.documentElement.scrollTop || document.body.scrollTop
+}
+
+onMounted(
+    () => {
+        window.addEventListener('scroll', dataScroll)
+    }
+)
+
+watch(
+    scroll,
+    () => loadScroll()
+)
 </script>

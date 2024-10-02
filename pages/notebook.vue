@@ -4,12 +4,21 @@
     <div class="flex flex-row flex-wrap md:flex-nowrap justify-center mx-10">
         <ContentDoc path="/wetlab-notebook" v-slot="{ doc }">
             <!-- TOC -->
-            <aside class="md:sticky md:top-[120px] md:w-[200px] md:h-[200px] md:mr-10 ">
+            <aside class="md:sticky md:top-[120px] md:w-[200px] md:h-[450px] md:mr-10 ">
                 <h1 class="mt-0">TOC</h1>
                 <ul>
                     <li v-for="link in doc.body.toc.links" :key="link.id" class="my-5"
                         :class="{ 'text-[#C0F748] font-bold': activateIndex == link.id }">
                         <a @click="scrollToAnchor(link.id)" class="cursor-pointer">{{ link.text }}</a>
+                        <!-- h3 目录 -->
+                        <ul :class="{ 'hidden': activateIndex != link.id }" class="pl-5 pt-2">
+                            <template v-for="sublink in link.children" :key="sublink.id">
+                                <li v-if="sublink.depth == 3"
+                                    :class="{ 'text-[#fff] font-normal': activateSubIndex != sublink.id }" class="mb-2">
+                                    <a @click="scrollToAnchor(sublink.id)" class="cursor-pointer">{{ sublink.text }}</a>
+                                </li>
+                            </template>
+                        </ul>
                     </li>
                 </ul>
             </aside>
@@ -51,13 +60,23 @@ const { scrollToAnchor, scrollToTop } = useAnchorScroll({
 
 const scroll = ref('')
 const activateIndex = ref('')
+const activateSubIndex = ref('')
 
 function loadScroll() {
     var h2 = document.querySelectorAll(".content h2")
     for (var i = h2.length - 1; i >= 0; i--) {
         if (scroll.value >= h2[i].offsetTop - 130) {
-            // console.log(h2[i].id);
+            console.log(h2[i].id)
             activateIndex.value = h2[i].id
+            break
+        }
+    }
+
+    var h3 = document.querySelectorAll(".content h3")
+    for (var i = h3.length - 1; i >= 0; i--) {
+        if (scroll.value >= h3[i].offsetTop - 130) {
+            console.log(h3[i].id)
+            activateSubIndex.value = h3[i].id
             break
         }
     }

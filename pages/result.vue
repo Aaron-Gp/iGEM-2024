@@ -5,7 +5,6 @@
         <ContentDoc path="/wetlab-results" v-slot="{ doc }">
             <!-- TOC -->
             <aside class="md:sticky md:top-[120px] md:w-[200px] md:h-[400px] md:mr-10 ">
-                <button @click="console.log(doc)" class="text-white">1122</button>
                 <h1 class="mt-0">TOC</h1>
                 <ul>
                     <li v-for="link in doc.body.toc.links" :key="link.id" class="my-5"
