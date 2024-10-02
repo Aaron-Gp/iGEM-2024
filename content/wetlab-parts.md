@@ -10,8 +10,8 @@ The sequence source and construction method of the composite part are demonstrat
 
 | Part Code    | Part Name                    | Type     |
 | ------------ | ---------------------------- | -------- |
-| BBa_K5358010 | BsFbFp                       | Reporter |
-| BBa_K5358011 | (N)T7RNAP-ERintein-(C)T7RNAP | Coding   |
+| [BBa_K5358010](https://parts.igem.org/Part:BBa_K5358010) | BsFbFp                       | Reporter |
+| [BBa_K5358011](https://parts.igem.org/Part:BBa_K5358011) | N-T7RNAP-ER-LBD intein-C-T7RNAP | Coding   |(N)T7RNAP-ERintein-(C)T7RNAP | Coding   |
 
 ## Composite Parts
 

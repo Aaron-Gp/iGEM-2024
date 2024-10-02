@@ -27,19 +27,15 @@ This year's BIT team has developed a high-throughput EDCs detection platform cha
 
 The goal of the hardware device is to construct a platform that includes a reaction vessel, temperature control, and fluorescence detection. To achieve this, we adopted the typical engineering and project design approach as shown in Figure 1, underwent several design iterations, and ultimately selected an integrated, high-throughput solution.
 
- 
 
 ![img](https://static.igem.wiki/teams/5358/contribution/hardware-fig1.png)
 
-<div style="text-align: center;">
-Figure 1 Hardware Design Flowchart 
-</div>
+[Figure 1 Hardware Design Flowchart]{.fig-title}
 
 ### **Structural Construction:**
 
 The final structure is primarily divided into a sampling area and a detection area.
 
- 
 
 l Sampling Area: An aluminum alloy temperature-controlled slot houses multiple reaction tubes, with temperature control achieved through a temperature control module.
 
@@ -47,13 +43,11 @@ l Detection Area: A linear slide rail drives the fluorescence detector to sequen
 
 The functions of each module are centrally controlled using an MCU chip.
 
- 
 
 ![img](https://static.igem.wiki/teams/5358/contribution/hardware-fig2.png) 
 
-<div style="text-align: center;">
-Figure 2 Hardware Structure Diagram
-</div>
+[Figure 2 Hardware Structure Diagram]{.fig-title}
+
 ### **System Implementation:**
 
 The main components selected for the hardware device are shown in the table below:
@@ -69,24 +63,18 @@ The main components selected for the hardware device are shown in the table belo
 | ***Motor Drive***            | 2830 Stepper Motor   |
  
 
- 
 
 ![img](https://static.igem.wiki/teams/5358/contribution/hardware-fig3.png) 
 
-<div style="text-align: center;">
-Figure 3 Final Model Diagram
-</div>
+[Figure 3 Final Model Diagram]{.fig-title}
+
 Please contact us via the email address at the bottom to obtain all component models and the complete modeling files!
 
 ## **Software :The Source Code**
 
 The software portion of this project involved the design of a mobile app that leverages Bluetooth communication to automate control of the hardware device and to acquire fluorescence signals in real-time. The signals, after data processing, yield detection results that are then visualized.
 
- 
-
-The project's software is written in QT. Please contact us  to obtain the source code!
-
-
+The project's software is written in QT. Please contact us to obtain the source code!
 
 ## Human Practice：New concept of Conducting HP 
 
@@ -96,7 +84,7 @@ The project's software is written in QT. Please contact us  to obtain the source
 
 This year, we innovatively put forward the "BRIEF" cycle to guide the development of Human Practice. This system divides HP's work into five phases: Brainstorming, Researching, Insight Integrating, Executing and Adjusting, and Feedback recollecting. iGEMer will propose a project with both research and practical significance through Brainstorming, and conduct in-depth investigation on the relevant field through Researching. After Insight Integrating, Executing and Adjusting, Feedback Recollecting, a logical closed loop will be formed, putting forward ideas, searching for significance, seeking external insights, and constantly connecting our project with the world.
 
-See more in **Human-practices**
+See more in [**Human-practices**](https://2024.igem.wiki/bit/human-practices)
 
 ## Model: Protein Model
 
@@ -113,8 +101,6 @@ See more in [**Model**](https://2024.igem.wiki/bit/model)
 This year, our graphic designer, Li Sixuan, has created a series of wiki elements with a unique style, including animations for the home page as well as borders and decorations for each interface. These wiki elements can be referred to by all iGEMers and can be downloaded at any time from our website.
 
 ![](https://static.igem.wiki/teams/5358/contribution/art3.png)
-
-
 
 ![](https://static.igem.wiki/teams/5358/contribution/art2.png)
 

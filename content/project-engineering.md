@@ -1,3 +1,7 @@
+## Overview
+
+The goal of the BIT team is to build a gate circuit that can work effectively in a low-oxygen environment and integrate miniaturized devices as a reaction platform to adjust application requirements. Therefore, we followed the DBTL principle and the engineering design cycle, dividing our work into two modules: Biosensor and Hardware.
+
 ## Biosensor
 
 ### Luminescence

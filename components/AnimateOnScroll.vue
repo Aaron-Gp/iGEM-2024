@@ -5,7 +5,7 @@
                 puzzled and disturbed. The feeding stations in the backyards were deserted. The few birds seen anywhere
                 were moribund; they trembled violently and could not fly. It was a spring without voices, only silence
                 lay over the fields, woods, and marsh."</p>
-            <p class="text-right mt-3">——*Silent Spring* written by Rachel Carson</p>
+            <p class="text-right mt-3">—— <i>Silent Spring</i> written by Rachel Carson</p>
         </h2>
 
         <div class="my-20 h-[1000vh]">
@@ -35,7 +35,7 @@
         </div>
 
         <h2 data-aos="fade-up" data-aos-duration="1000" class="sticky">
-            <p class="text-right w-[60vw] ml-auto text-balance">"Silent Spring" depicts the environmental pollution and ecological damage caused by
+            <p class="text-right w-[60vw] ml-auto text-balance"><i>Silent Spring</i> depicts the environmental pollution and ecological damage caused by
                 excessive use of chemicals and fertilizers, ultimately leading to unbearable disasters for humanity.</p>
             <p class="text-right mt-10 w-[60vw] ml-auto text-balance">Are you worried that the phenomena described in the book will become a reality?
             </p>
