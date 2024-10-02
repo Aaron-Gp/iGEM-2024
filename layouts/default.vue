@@ -15,7 +15,7 @@
 
 <style>
 body {
-    background-image: url("/imgs/bg.png");
+    background-image: url("https://static.igem.wiki/teams/5358/banner/bg.webp");
     background-repeat: repeat-y;
     background-size: cover;
     color: white;
