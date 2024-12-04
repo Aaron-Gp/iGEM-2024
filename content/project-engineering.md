@@ -298,5 +298,4 @@ FUNCTION splitAndFindMax(dataPoints, zeroThresholdCount)
 END FUNCTION
 ```
 
-#### Testing
 

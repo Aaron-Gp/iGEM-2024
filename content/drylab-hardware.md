@@ -56,8 +56,7 @@ In the initial version of the scheme, we used an STM32 chip as the **microcontro
 ::
 
 
-
-### Feasibility Verification
+## Feasibility Verification
 
 ### Temperature Stability Verification
 
@@ -79,8 +78,7 @@ The AS7341 fluorescence sensor, by integrating filters of different wavelength b
 The above feasibility verification demonstrates that the temperature control module and fluorescence detection module designed in the first version of the scheme can meet the design requirements and are feasible.
 
 
-
-## Feedback
+## Feedback and Improvement
 
 We engaged in in-depth discussions with the biology team, design team, and professional instructors regarding our hardware design, obtaining extremely valuable feedback. This feedback is instrumental in guiding our further improvements.
 
@@ -117,15 +115,15 @@ To meet the demand for high-throughput detection, we proposed two solutions: a m
 [Figure 12 Model Diagram of the New Equipment]{.fig-title}
 
 
-### Goal Achievement
+## Goal Achievement
 
-#### Final Product
+### Final Product
 
 The final system is primarily divided into a **sampling area** and a **detection area.** In actual use, the freeze-dried engineering bacteria will be mixed with multiple samples to be tested in separate reaction chambers for cultivation, awaiting detection.Upon receiving operational commands from the software, the device rapidly heats the aluminum alloy temperature-controlled slot in **the sampling area** and maintains a constant temperature, while also providing real-time feedback of the temperature and the operational status of the system to the mobile software interface via Bluetooth. Concurrently, the fluorescence detection module in the detection area begins to sequentially detect the fluorescence signals of each reaction chamber along the slide rail and provides real-time feedback to the software's visual interface. When the engineering bacteria grow to a certain extent, the intensity of the fluorescence signal will reflect the degree of endocrine disruptor effects.
 
-##### Functional Testing
+### Functional Testing
 
-Temperature Control Capability Test
+#### Temperature Control Capability Test
 
 We conducted another temperature stability test on the latest version of the system. The results shown in Figure 12 indicate that the absolute difference between the average temperature and the set temperature is less than 0.3°C, suggesting that the stability of the improved temperature control system has been further enhanced. This can well meet practical requirements.
 
@@ -134,8 +132,7 @@ We conducted another temperature stability test on the latest version of the sys
 
 [Figure 13 Measurement Results of Temperature Fluctuation]{.fig-title}
 
-
-##### Gradient Fluorescein Sodium Fluorescence Detection Verification
+#### Gradient Fluorescein Sodium Fluorescence Detection Verification
 
 The fluorescence validation test of the latest equipment shows that the tested Relative Fluorescence Units (RFU) values have a good linear relationship with the concentration gradient of fluorescein sodium. This indicates that the new fluorescence detection module can effectively reflect the concentration of substances, meeting the usage requirements.
 
@@ -145,21 +142,25 @@ The fluorescence validation test of the latest equipment shows that the tested R
 
 ## Android Software
 
+![](https://static.igem.wiki/teams/5358/hardware/fugure-15-software-operation-procedure.png)
+
+![](https://static.igem.wiki/teams/5358/hardware/fuugure-16-drawing-demonstration.gif)
+
 We have conducted functional testing on the already designed software. Initially, the software is imported onto an Android phone and the Bluetooth module is connected to check for a normal connection. The software is then opened to inspect whether the UI (User Interface) design is complete. Subsequently, the signals received from the module are used to test the graph plotting functionality to ensure it operates correctly, and the system is optimized based on the results.
 
-## Data Reception Verification
+### Data Reception Verification
 
 Signals for initiation are transmitted from the mobile phone to the MCU via Bluetooth. As can be seen from the diagram, the hardware successfully starts up and returns a designated identifier.
 
-## Data Plotting Verification
+### Data Plotting Verification
 
 During operation, the MCU sends data to the mobile phone via Bluetooth. The mobile phone then parses this data and plots graphs of time-temperature and time-fluorescence intensity. The diagrams indicate that the program has successfully implemented its functionalities.
 
-## Improvement
+### Improvement
 
 Due to the addition of a linear slide rail for the movement of fluorescence detection in the second version of the hardware design, the signals obtained from the fluorescence detection have also changed. Therefore, the program is required to implement the ability to distinguish between the fluorescence intensity pulse peaks of different channels and to obtain their respective maximum values (theoretically, the fluorescence intensity at the bottom of the tube) for plotting.
 
-## Array Splitting and Plotting Verification
+### Array Splitting and Plotting Verification
 
 We can observe a set of data with multiple pulse peaks returned by the MCU. The software successfully splits this data into several different arrays and obtains the maximum value from each array for plotting.
 
@@ -171,6 +172,8 @@ In designing the hardware, we employed engineering and project design approaches
 
 To facilitate user operation, we have added detailed user instructions in the App and will record demonstration videos for ease of use. At the same time, we have organized detailed system design blueprints and modeling files, as well as detailed component selection and manufacturing methods. You can contact us on the contribution page to obtain the relevant documents, thereby assisting other participants in replicating our device. Our main controller and major systems utilize common integrated units, while other parts are made using industrial processing and 3D printing techniques, making them easy to replicate for reference and implementation by other teams.
 
+(Please view the physical items on site. Stay tuned for more updates.)
+
 [*References*]{.text-2xl}
 
 ::mdc-wrap{:class="reference"}
@@ -178,4 +181,4 @@ To facilitate user operation, we have added detailed user instructions in the Ap
 1. Wang Y, Chen H, Lin K, et al. Ultrasensitive single-step CRISPR detection of monkeypox virus in minutes with a vest-pocket diagnostic device[j]. Nature Communications, 2024, 15(1):3279.
 
 ::
- 
+

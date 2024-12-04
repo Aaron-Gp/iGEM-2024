@@ -1,14 +1,16 @@
 <template>
-    <TresCanvas render-mode="on-demand" shadows alpha class="h-[500px] glb">
-        <TresPerspectiveCamera :position="[100, -100, -100]" />
-        <OrbitControls />
-        <Suspense>
-            <GLTFModel :path="`${config.app.baseURL}${model}`" />
-        </Suspense>
-        <TresAmbientLight :position="[0, 0, 0]" :intensity="1.0" />
-        <TresDirectionalLight :position="[-4, 8, 4]" :intensity="1.5" />
-        <TresDirectionalLight :position="[4, -8, -4]" :intensity="1.0" />
-    </TresCanvas>
+    <div class="h-[500px] glb overflow-y-hidden">
+        <TresCanvas render-mode="on-demand" shadows alpha>
+            <TresPerspectiveCamera :position="[100, -100, -100]" />
+            <OrbitControls />
+            <Suspense>
+                <GLTFModel :path="`${config.app.baseURL}${model}`" />
+            </Suspense>
+            <TresAmbientLight :position="[0, 0, 0]" :intensity="1.0" />
+            <TresDirectionalLight :position="[-4, 8, 4]" :intensity="1.5" />
+            <TresDirectionalLight :position="[4, -8, -4]" :intensity="1.0" />
+        </TresCanvas>
+    </div>
 </template>
 
 <style lang="scss" scoped>

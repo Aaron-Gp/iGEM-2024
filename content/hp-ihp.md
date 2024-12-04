@@ -91,5 +91,3 @@ Inspired by this, and after subsequent investigation, we will use Chimera1.13 so
 ## Feedback Recollecting
 
 We plan to bring the prototype design to endocrine disruptor experts and previous stakeholders, and continue to receive their comments and feedback to continue to adapt our project; At the same time, we will also find new innovation points and needs from the feedback, so as to launch a new round of "BRIEF" cycle in the future and complete the closed loop.
-
-![](https://static.igem.wiki/teams/5358/ihp/executingandadjusting.png)
