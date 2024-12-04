@@ -1,0 +1,1 @@
+import{f as a}from"./node.Dnd51l0P.js";import{A as n,_ as f,o as d,c as l}from"./entry.RGu-LCYs.js";const o=(r,e,t,...c)=>r[e]?n({...r,[e]:()=>a(r[e](),t==null?void 0:t.unwrap)},e,t,...c):n(r,e,t,...c),u={};function _(r,e){return d(),l("div",null,[o(r.$slots,"default")])}const m=f(u,[["render",_]]);export{m as default};
