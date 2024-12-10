@@ -5,14 +5,10 @@
     </NuxtLayout>
 </template>
 
-<script setup>
-</script>
-
 <style lang="scss">
 @import '~/assets/css/content.scss';
 
-body{
+body {
     height: 100vh;
 }
-
 </style>

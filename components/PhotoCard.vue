@@ -14,7 +14,7 @@ defineProps({
     },
     offset: {
         type: Array,
-        default: [2, -3]
+        default: () => [2, -3],
     },
     degree: {
         type: String,
@@ -27,13 +27,18 @@ defineProps({
     content: {
         type: String,
         required: true,
-    }
+    },
 })
 </script>
 
 <template>
     <div class="m-2 inline-block">
-        <el-popover placement="right-start" :width="200" effect="dark" trigger="hover">
+        <el-popover
+            placement="right-start"
+            :width="200"
+            effect="dark"
+            trigger="hover"
+        >
             <template #reference>
                 <el-card shadow="hover" class="">
                     <template #footer>
@@ -41,19 +46,26 @@ defineProps({
                             {{ name }}
                         </el-badge>
                     </template>
-                    <NuxtImg provider="iGEM" :src="src" fit="fill" :placeholder="[50, 50]" loading="lazy" class="aspect-[3/4] w-full" />
+                    <NuxtImg
+                        provider="iGEM"
+                        :src="src"
+                        fit="fill"
+                        :placeholder="[50, 50]"
+                        loading="lazy"
+                        class="aspect-[3/4] w-full"
+                    />
                 </el-card>
             </template>
             <!-- title -->
             <div class="text-lg font-bold">
-                {{ degree }} <br /> {{ major }}
+                {{ degree }} <br />
+                {{ major }}
             </div>
             <!-- content -->
             <div class="mt-2">
                 {{ content }}
             </div>
         </el-popover>
-
     </div>
 </template>
 
@@ -76,7 +88,7 @@ defineProps({
         font-size: min(1.5rem, 4vw);
         font-weight: bold;
         text-align: center;
-        
+
         @apply px-2;
     }
 
@@ -94,11 +106,9 @@ defineProps({
         .el-badge__content {
             border: none;
             right: 0;
-            transform: translateY(-1.0rem) translateX(1.0rem);
+            transform: translateY(-1rem) translateX(1rem);
         }
-
     }
-
 }
 
 .el-popper.el-popover {

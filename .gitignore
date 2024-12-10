@@ -8,6 +8,7 @@ dist
 .output/public/imgs
 /public/imgs/
 *.tsbuildinfo
+.eslintcache
 
 # Node dependencies
 node_modules
